@@ -9,8 +9,8 @@
     border: none;
     display: flex;
     align-items: center;
-    justify-content: end;
-    padding: 1rem;
+    justify-content: flex-end;
+    padding: 1.5rem;
     height: 4.5rem;
     width: 100%;
 }
@@ -24,7 +24,7 @@
   }
 
 .faTimesBtnIcon {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
     display: flex;
     color: #f1f2f6;
@@ -35,15 +35,15 @@
 }
 
 .curtainMenuNavItems a {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .curtainMenu {
     position: fixed;
-    top: -30%;
+    top: -26%;
     right: 0;
     width: 100%;
-    height: 30%;
+    height: 26%;
     background-color: #754043;
     color: #f1f2f6;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
