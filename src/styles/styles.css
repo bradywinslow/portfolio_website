@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_FQftx9897sxZ.woff2) format('woff2');
+}
+
+* {
+    font-family: 'Lato', 'Helvetica', san-serif;
+}
+
+body {
+    background-color: #F1F2F6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
