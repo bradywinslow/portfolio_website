@@ -1,7 +1,6 @@
 .nav {
-    background-color: #754043;
+    background-color: #032B43;
     height: 4.5rem;
-    border-bottom: 2.5px solid #171614;
     font-size: 1.1rem;
     font-weight: 300;
     display: flex;
@@ -11,15 +10,24 @@
     top: 0;
 }
 
+.navContainer {
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navItems {
     display: flex;
-    margin-left: 15%;
     align-items: center;
 }
 
 .logo {
+    color: #FF9C1A;
+    font-family: 'Oswald';
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .ul {
@@ -30,11 +38,11 @@ a {
     background-color: none;
     cursor: pointer;
     text-decoration: none;
-    color: #F1F2F6;
+    color: #FF9C1A;
 }
 
 a:hover {
-    color: #4D7EA8;
+    color: #DCEFFF;
 }
 
 .ul a {
@@ -43,22 +51,29 @@ a:hover {
 
 .contact {
     font-size: 1.1rem;
-    color: #F1F2F6;
+    color: #FF9C1A;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: .85rem;
     align-items: center;
-    margin-right: 15%;
   }
 
 .FontAwesomeIcon {
     font-size: 1.23rem;
 }
 
+@media only screen and (max-width: 90rem) {
+    .navContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
 @media only screen and (max-width: 900px) {
-    .navItems {
+    .navContainer {
         margin-left: 10%;
+        margin-right: 10%;
     }
     .ul {
         display: none;
@@ -66,7 +81,6 @@ a:hover {
     .contact {
         font-size: 1rem;
         gap: .75rem;
-        margin-right: 10%;
         
     }
     .logo {

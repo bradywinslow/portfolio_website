@@ -1,11 +1,11 @@
 .floatingBtn {
-    background-color: #754043;
-    border: #754043;
+    background-color: #032B43;
+    border: none;
     display: none;
 }
 
 .closeCurtain {
-    background-color: #754043;
+    background-color: #032B43;
     border: none;
     display: flex;
     align-items: center;
@@ -20,14 +20,24 @@
     height: 1rem;
     cursor: pointer;
     display: flex;
-    color: #f1f2f6;
+    color: #FF9C1A;
   }
 
+.floatingBtnIcon:hover {
+    color: #DCEFFF;
+}
+
 .faTimesBtnIcon {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
     display: flex;
-    color: #f1f2f6;
+    color: #FF9C1A;
+}
+
+.faTimesBtnIcon:hover {
+    color: #DCEFFF;
 }
 
 .curtainMenuNavItems {
@@ -40,22 +50,31 @@
 
 .curtainMenu {
     position: fixed;
-    top: -26%;
-    right: 0;
+    left: 0;
+    top: 0;
+    height: auto;
     width: 100%;
-    height: 26%;
-    background-color: #754043;
+    background-color: #032B43;
     color: #f1f2f6;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-    transform: translateY(0);
+    transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
   }
-  
+
 .curtainMenu.open {
-    transform: translateY(100%);
+    transform: translateY(0);
   }
- 
+
+@media only screen and (min-width: 900px) {
+    .faTimesBtnIcon {
+        display: none;
+    }
+    .curtainMenu {
+        display: none;
+    }
+}  
+
 @media only screen and (max-width: 900px) {
     .floatingBtn {
         display: flex;
@@ -64,7 +83,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
         list-style: none;
+        margin-top: 0;
+        margin-bottom: 4.5rem;
     }
 }

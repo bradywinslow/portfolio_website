@@ -1,14 +1,12 @@
 .footerDivStyles {
-    color: #DBE9EE;
-    background-color: #754043;
+    font-family: 'Ariel', 'Helvetica', 'sans-serif';
+    color: #032B43;
     height: 2.5rem;
-    border-top: 2.5px solid #171614;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
