@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 import styles from '../styles/CurtainMenu.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-
-const curtainMenuNav = [
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' }
-];
+import { navMenu } from '../constants/global.js';
 
 export default function CurtainMenu() {
     const [open, setOpen] = useState(false);
@@ -32,7 +27,7 @@ export default function CurtainMenu() {
                 </button>
 
                 <ul className={styles.curtainMenuNavItems}>
-                    {curtainMenuNav.map((item) => (
+                    {navMenu.map((item) => (
                         <a href={item.href} onClick={handleLinkClick}>
                             {item.name}
                         </a>
