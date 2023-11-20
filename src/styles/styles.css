@@ -2,9 +2,12 @@
     font-family: 'Lora', Georgia, Times, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #dcefff;
-    overflow-x: hidden;
     margin: 0;
 }
 

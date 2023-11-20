@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { navMenu } from '../constants/global.js';
 
 export default function DropdownMenu() {
-    const [toggleMenu, setToggleMenu] = useState();
+    const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
         <>

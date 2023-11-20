@@ -30,10 +30,6 @@
     font-weight: 600;
 }
 
-.ul {
-    padding-left: 2.25rem;
-}
-
 a {
     background-color: none;
     cursor: pointer;
@@ -44,24 +40,6 @@ a {
 
 a:hover {
     color: #DCEFFF;
-}
-
-.ul a {
-    padding-right: 1rem;
-}
-
-.contact {
-    font-size: 1.1rem;
-    color: #FF9C1A;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: .85rem;
-    align-items: center;
-  }
-
-.FontAwesomeIcon {
-    font-size: 1.23rem;
 }
 
 @media only screen and (max-width: 90rem) {
@@ -89,5 +67,11 @@ a:hover {
     }
     .FontAwesomeIcon {
         font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .FontAwesomeIcon {
+        display: none;
     }
 }

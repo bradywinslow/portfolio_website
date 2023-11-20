@@ -1,10 +1,7 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import CurtainMenu from '../components/CurtainMenu.js';
-import { navMenu } from '../constants/global.js';
+import NavMenuItems from '../components/NavMenuItems.jsx';
+import Contact from '../components/Contact.jsx';
 
 export default function Header() {
     return (
@@ -12,28 +9,9 @@ export default function Header() {
             <div className={styles.navContainer}>
                 <div className={styles.navItems}>
                     <a className={styles.logo} href="./">BRADY WINSLOW</a>
-                    <ul className={styles.ul}>
-                        {navMenu.map((item) => (
-                            <a 
-                                href={item.href}
-                            >
-                                {item.name}
-                            </a>
-                        ))}
-                    </ul>
+                    <NavMenuItems />
                 </div>
-                <div className={styles.contact}>
-                    <a className={styles.FontAwesomeIcon} href="https://www.linkedin.com/in/brady-winslow/" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faLinkedinIn} />
-                    </a>
-                    <a className={styles.FontAwesomeIcon} href="https://github.com/bradywinslow" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                    <a className={styles.FontAwesomeIcon} href="mailto:brady.winslow@gmail.com" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                    </a>
-                    <CurtainMenu />
-                </div>
+                <Contact />
             </div>
         </nav>
     );

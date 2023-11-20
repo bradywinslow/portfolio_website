@@ -88,3 +88,55 @@
         margin-right: 15%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .mainContent {
+        margin-left: 12%;
+        margin-right: 12%;
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.35rem;
+    }
+    .aboutText p {
+        font-size: 1.25rem;
+    }
+    .headshot {
+        max-width: 17.5rem;
+        height: 100%;
+    }
+    .projects {
+        width: 100%;
+    }
+    .projectDetails {
+        font-size: 1.15rem;
+    }
+    .skills {
+        width: 100%;
+    }
+    .FontAwesomeIcon {
+        height: 2.25rem;
+        width: 2.25rem;
+        margin: 1.75rem 3.25rem 2.75rem 3.25rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .mainContent {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+    .headshot {
+        max-width: 12rem;
+        height: 100%;
+    }
+    h2 {
+        font-size: 1.15rem;
+    }
+    .about {
+        max-width: 250px;
+    }
+    .aboutText p {
+        font-size: 1rem;
+    }
+}

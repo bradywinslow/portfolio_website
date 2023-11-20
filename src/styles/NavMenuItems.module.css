@@ -1,0 +1,13 @@
+.ul {
+    padding-left: 2.25rem;
+}
+
+.ul a {
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .ul {
+        display: none;
+    }
+}
