@@ -3,7 +3,6 @@ import styles from '../styles/Contact.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import CurtainMenu from '../components/CurtainMenu.js';
 
 export default function Contact() {
     return (
@@ -17,7 +16,6 @@ export default function Contact() {
             <a className={styles.FontAwesomeIcon} href="mailto:brady.winslow@gmail.com" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <CurtainMenu />
         </div>
     )
 }

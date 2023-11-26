@@ -3,6 +3,7 @@ import styles from '../styles/CurtainMenu.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { navMenu } from '../constants/global.js';
+import Contact from '../components/Contact.jsx';
 
 export default function CurtainMenu() {
     const [open, setOpen] = useState(false);
@@ -33,6 +34,7 @@ export default function CurtainMenu() {
                         </a>
                     ))}
                 </ul>
+                <Contact />
             </div>
         </>        
     );

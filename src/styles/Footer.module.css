@@ -3,11 +3,17 @@
     color: #032B43;
     height: 2.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
     width: 100%;
     bottom: 0;
+}
+
+.contactIcons {
+    display: flex;
+
 }
 
 .h4 {

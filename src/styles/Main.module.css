@@ -66,7 +66,7 @@
 
 .skills {
     max-width: 70rem;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .skillsIcons {
@@ -89,7 +89,7 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .mainContent {
         margin-left: 12%;
         margin-right: 12%;
@@ -114,6 +114,9 @@
     .skills {
         width: 100%;
     }
+    .skillsIcons {
+        justify-content: center;
+    }
     .FontAwesomeIcon {
         height: 2.25rem;
         width: 2.25rem;
@@ -121,7 +124,7 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
     .mainContent {
         margin-left: 9%;
         margin-right: 9%;

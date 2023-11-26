@@ -52,7 +52,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    height: auto;
+    height: 100%;
     width: 100%;
     background-color: #032B43;
     color: #f1f2f6;
@@ -78,6 +78,7 @@
 @media only screen and (max-width: 900px) {
     .floatingBtn {
         display: flex;
+        align-items: center;
     }
     .curtainMenuNavItems {
         display: flex;
@@ -87,6 +88,9 @@
         height: 100%;
         gap: 1.5rem;
         list-style: none;
+    }
+    Contact {
+        display: flex;
     }
 }
 
