@@ -105,7 +105,12 @@ a {
         cursor: pointer;
     }
     .closeIcon {
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
+        transition: transform 0.35s ease-in-out;
+    }
+    .openIcon {
+        transform: rotate(0deg);
+        transition: transform 0.35s ease-in-out;
     }
 }
 
