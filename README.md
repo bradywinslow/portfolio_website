@@ -3,7 +3,7 @@
 Welcome to my portfolio! This repository contains the source code for my portfolio website, where I showcase my coding skills and projects as front-end web developer.
 
 ## Website Link
-[View My Portfolio](https://bradywinslow.github.io/portfolio_website/)
+[View My Portfolio](https://bradywinslow.com)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -51,7 +51,7 @@ To run this website locally or contribute to its development, follow these steps
 3. Launch the `index.html` file in a web browser.
 
 ## How to Use
-Simply visit [my portfolio website](https://bradywinslow.github.io/portfolio_website/) and explore the different sections. Feel free to reach out using the various contact options if you have any questions or opportunities.
+Simply visit [my portfolio website](https://bradywinslow.com) and explore the different sections. Feel free to reach out using the various contact options if you have any questions or opportunities.
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
