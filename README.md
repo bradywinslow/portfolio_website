@@ -50,6 +50,12 @@ To run this website locally or contribute to its development, follow these steps
 2. Open the project in your preferred code editor.
 3. Launch the `index.html` file in a web browser.
 
+## Deploy
+From: https://blog.logrocket.com/deploying-react-apps-github-pages/#pushing-the-react-app-to-the-github-repository
+```
+npm run deploy
+```
+
 ## How to Use
 Simply visit [my portfolio website](https://bradywinslow.com) and explore the different sections. Feel free to reach out using the various contact options if you have any questions or opportunities.
 
