@@ -1,7 +1,7 @@
 const navMenu = [
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' }
+    { name: 'About', href: '#about', id: 1 },
+    { name: 'Projects', href: '#projects', id: 2 },
+    { name: 'Skills', href: '#skills', id: 3 }
 ];
 
 export { navMenu };
