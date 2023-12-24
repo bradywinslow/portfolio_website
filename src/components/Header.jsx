@@ -32,7 +32,7 @@ export default function Header() {
         <nav className={styles.nav}>
             <div className={styles.navContainer}>
                 <div className={styles.logoContainer}>
-                    <a className={styles.logo} href="./">BRADY WINSLOW</a>
+                    <a className={styles.logo} href="./"><img className={styles.logoImage} src='../logo500.png' alt='logo' />BRADY WINSLOW</a>
                 </div>
                 <div className={styles.navMenuItemsContainer} ref={menuRef}>
                     <ul className={`${styles.ul} ${isOpen ? styles.dropdownOpen : ''}`}>

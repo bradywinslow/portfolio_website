@@ -20,9 +20,17 @@
 .logoContainer {
     display: flex;
     align-items: center;
+    
+}
+
+.logoImage {
+    height: 3rem;
+    margin-left: -1rem;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     color: #FF9C1A;
     font-size: 1.5rem;
     font-family: 'Oswald';

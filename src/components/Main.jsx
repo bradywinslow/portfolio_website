@@ -12,7 +12,7 @@ export default function Main() {
                     <div className={styles.about}>
                         <div className={styles.aboutText}>
                             <h2>Hi, I'm Brady!</h2>
-                            <p>I have a Ph.D. in history and have worked as a high school history teacher and in customer success. Drawing on my experiences in these people-facing roles, I'm now a self-taught front-end web developer, devoted to building user-friendly applications. I live in the San Francisco Bay Area.</p>
+                            <p>I have a Ph.D. in history and have worked as a high school history teacher and in customer success. Drawing on my experiences in these people-facing roles, I'm now a self-taught front-end web developer, devoted to building customer-oriented, user-friendly applications. I live in the San Francisco Bay Area.</p>
                         </div>
                         <img src={aboutPhoto} alt='Headshot' className={styles.headshot}/>
                     </div>
