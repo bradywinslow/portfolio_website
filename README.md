@@ -28,6 +28,7 @@ This website serves as a central hub for potential employers and collaborators t
 - **HTML5:** Structuring the content of the website.
 - **CSS3:** Styling and layout of the page.
 - **JavaScript:** Adding interactivity and dynamic elements.
+- **React:** Building responsive and dynamic user interfaces.
 - **GitHub Pages:** Hosting the website directly from this repository.
 
 ## Projects
