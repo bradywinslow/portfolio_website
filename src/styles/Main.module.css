@@ -4,19 +4,35 @@
     width: 70rem;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    margin-top: 5rem;
     color: #032B43;
+}
+
+.aboutContainer {
+    border: 1px solid #032B43;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    max-width: 70rem;
+}
+
+.greeting {
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 1.75rem;
+    text-decoration: underline;
 }
 
 .about {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 6rem auto 6rem auto;
+    justify-content:space-around;
     padding: auto;
     max-width: 70rem;
+    gap: 1rem;
 }
 
 .aboutText {
@@ -24,29 +40,29 @@
     flex-direction: column;
     flex: 0 0 100%;
     justify-content: center;
-    max-width: 33rem;
-}
-
-.aboutText p {
-    font-size: 1.35rem;
-    padding-bottom: 1rem;
-    max-width: 31rem;
-}
-
-.aboutText h2 {
     text-align: center;
-    align-items: center;
-    margin-bottom: -0.5rem;
+    max-width: 37rem;
+    font-size: 1.35rem;
 }
 
 .headshot {
     max-width: 20rem;
     height: 100%;
+    border-radius: 12px;
 }
 
 .projects {
-    margin-bottom: 6rem;
     max-width: 70rem;
+    margin-bottom: 6rem;
+    border: 1px solid #032B43;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.projects h2 {
+    text-align: center;
+    line-height: 1.3rem;
 }
 
 .details {
@@ -54,7 +70,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 6rem;
 }
 
 .projectDetails {
@@ -66,7 +81,16 @@
 
 .skills {
     max-width: 70rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+    border: 1px solid #032B43;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.skills h2 {
+    text-align: center;
+    line-height: 1.3rem;
 }
 
 .skillsIcons {
@@ -105,14 +129,8 @@
         max-width: 17.5rem;
         height: 100%;
     }
-    .projects {
-        width: 100%;
-    }
     .projectDetails {
         font-size: 1.15rem;
-    }
-    .skills {
-        width: 100%;
     }
     .skillsIcons {
         justify-content: center;
