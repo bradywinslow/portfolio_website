@@ -119,6 +119,9 @@
         margin-right: 12%;
         width: 100%;
     }
+    .greeting {
+        font-size: 1.6rem;
+    }
     h2 {
         font-size: 1.35rem;
     }
@@ -151,13 +154,18 @@
         max-width: 12rem;
         height: 100%;
     }
+    .greeting {
+        font-size: 1.45rem;
+    }
     h2 {
         font-size: 1.15rem;
     }
-    .about {
-        max-width: 250px;
-    }
     .aboutText p {
         font-size: 1rem;
+    }
+    .FontAwesomeIcon {
+        height: 2.15rem;
+        width: 2.15rem;
+        margin: 1.65rem 2.75rem 2.65rem 2.75rem;
     }
 }
