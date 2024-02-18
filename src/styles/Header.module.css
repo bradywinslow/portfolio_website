@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 
-a {
+.navContainer a {
     background-color: none;
     cursor: pointer;
     text-decoration: none;

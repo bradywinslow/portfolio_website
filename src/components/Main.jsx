@@ -22,15 +22,10 @@ export default function Main() {
                 <section id='projects' className={styles.projects}>
                     <h2>Projects</h2>
                     <div className={styles.details}>
-                        <details className={styles.projectDetails}>
-                            <summary>Project 1</summary>
-                        </details>
-                        <details className={styles.projectDetails}>
-                            <summary>Project 2</summary>
-                        </details>
-                        <details className={styles.projectDetails}>
-                            <summary>Project 3</summary>
-                        </details>
+                        <article className={styles.projectDetails}>
+                            <h3><a href='https://github.com/bradywinslow/jammming'>Jammming</a></h3>
+                            <p>Jammming is a web application that allows a user to log in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                        </article>
                     </div>
                 </section>
                 <section className={styles.skills}>
