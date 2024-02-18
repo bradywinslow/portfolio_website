@@ -1,6 +1,6 @@
 # Brady Winslow's Web Development Portfolio
 
-Welcome to my portfolio! This repository contains the source code for my portfolio website, where I showcase my coding skills and projects as front-end web developer.
+Welcome to my portfolio! This repository contains the source code for my portfolio website, where I showcase my coding skills and projects as a front-end web developer.
 
 ## Website Link
 [View My Portfolio](https://bradywinslow.com)
@@ -25,22 +25,17 @@ This website serves as a central hub for potential employers and collaborators t
 - **Contact:** Reach out to me through several contact options.
 
 ## Technologies Used
-- **HTML5:** Structuring the content of the website.
-- **CSS3:** Styling and layout of the page.
-- **JavaScript:** Adding interactivity and dynamic elements.
-- **React:** Building responsive and dynamic user interfaces.
-- **GitHub Pages:** Hosting the website directly from this repository.
+- **HTML5:**
+- **CSS3:**
+- **JavaScript:**
+- **React:**
+- **GitHub Pages:**
 
 ## Projects
-### Project 1: [Project Name](project-link)
-- Brief description of the project.
-- Technologies used.
-- Link to the project repository or live demo.
-
-### Project 2: [Project Name](project-link)
-- Brief description of the project.
-- Technologies used.
-- Link to the project repository or live demo.
+### Project 1: [Jammming](https://curious-salamander-cadf27.netlify.app/)
+- Jammming is a web application that allows a user to log in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.
+- Technologies used: HTML5, CSS3, JavaScript, React, Netlify
+- [GitHub repository](https://github.com/bradywinslow/jammming)
 
 ...
 
