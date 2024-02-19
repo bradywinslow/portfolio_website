@@ -79,6 +79,20 @@
     margin: 0 2rem 2rem 2rem;
 }
 
+.videoDemo {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.jammmingVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .skills {
     max-width: 70rem;
     margin-bottom: 6rem;

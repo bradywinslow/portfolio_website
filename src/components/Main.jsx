@@ -24,6 +24,9 @@ export default function Main() {
                     <div className={styles.details}>
                         <article className={styles.projectDetails}>
                             <h3><a href='https://github.com/bradywinslow/jammming'>Jammming</a></h3>
+                            <div className={styles.videoDemo}>
+                                <iframe className={styles.jammmingVideo} src="https://www.loom.com/embed/0a9dc973ed68446bbfb6d4d263c4ea33?sid=ef48683b-a9bc-4186-b19c-44c9bedc9a6c" frameborder="0" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+                            </div>
                             <p>Jammming is a web application that allows a user to log in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
                         </article>
                     </div>
