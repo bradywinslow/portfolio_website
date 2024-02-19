@@ -36,6 +36,7 @@ This website serves as a central hub for potential employers and collaborators t
 - Jammming is a web application that allows a user to log in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.
 - Technologies used: HTML5, CSS3, JavaScript, React, Netlify
 - [GitHub repository](https://github.com/bradywinslow/jammming)
+- [Video demo](https://www.loom.com/share/0a9dc973ed68446bbfb6d4d263c4ea33?sid=97e9cb79-155d-4df3-a326-9ca30cfffe1d)
 
 ...
 
