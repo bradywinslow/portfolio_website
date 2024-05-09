@@ -3,6 +3,7 @@ import styles from '../styles/Main.module.css';
 import aboutPhoto from "../Headshot.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faGit, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { SiReactrouter, SiChakraui } from "react-icons/si";
 
 export default function Main() {
     return (
@@ -61,6 +62,8 @@ export default function Main() {
                         <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faCss3Alt} />
                         <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faJs} />
                         <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faReact} />
+                        <SiReactrouter className={styles.FontAwesomeIcon}/>
+                        <SiChakraui className={styles.FontAwesomeIcon}/>
                         <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faGit} />
                         <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faGithub} />
                     </div>
