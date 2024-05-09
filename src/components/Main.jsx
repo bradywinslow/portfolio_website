@@ -26,8 +26,8 @@ export default function Main() {
                             <h3><a href='https://github.com/bradywinslow/jammming'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
-                                    className={styles.jammmingVideo}
-                                    src="https://www.loom.com/embed/0a9dc973ed68446bbfb6d4d263c4ea33?sid=ef48683b-a9bc-4186-b19c-44c9bedc9a6c"
+                                    className={styles.video}
+                                    src='https://www.loom.com/embed/52d0172d70c84cfb8a0cb8e0bd809174?sid=22ebd1fc-0561-4815-83b7-e03714b77688'
                                     title='Jammming application video demo'
                                     frameBorder="0"
                                     webkitallowfullscreen='true'
@@ -35,7 +35,22 @@ export default function Main() {
                                     allow='fullscreen'
                                 ></iframe>
                             </div>
-                            <p>Jammming is a web application that allows a user to log in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                            <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                        </article>
+                        <article className={styles.projectDetails}>
+                            <h3><a href='https://github.com/bradywinslow/findYourHat'>Find Your Hat</a></h3>
+                            <div className={styles.videoDemo}>
+                                <iframe
+                                    className={styles.video}
+                                    src='https://www.loom.com/embed/e75761eb90f24aefa62a0fc6cfa5dd80?sid=939e91fe-1b77-4e7c-8c9e-e063f2367d4d'
+                                    title='Find Your Hat application video demo'
+                                    frameBorder="0"
+                                    webkitallowfullscreen='true'
+                                    mozallowfullscreen='true'
+                                    allow='fullscreen'
+                                ></iframe>
+                            </div>
+                            <p>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
                         </article>
                     </div>
                 </section>
