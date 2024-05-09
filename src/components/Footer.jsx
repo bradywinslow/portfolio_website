@@ -9,7 +9,7 @@ export default function Footer() {
                 <Contact />
             </div>
             <div className={styles.h4}>
-                <h4>&copy; 2023 Brady Winslow. All Rights Reserved.</h4>
+                <h4>&copy; 2023-2024 Brady Winslow. All Rights Reserved.</h4>
             </div>
         </div>
     );
