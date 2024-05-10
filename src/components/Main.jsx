@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from '../styles/Main.module.css';
 import aboutPhoto from "../Headshot.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faGit, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { SiReactrouter, SiChakraui } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from "react-icons/fa";
+import { SiJavascript, SiReactrouter, SiChakraui } from "react-icons/si";
 
 export default function Main() {
     return (
@@ -58,14 +57,14 @@ export default function Main() {
                 <section className={styles.skills}>
                     <h2 id='skills'>Skills</h2>
                     <div className={styles.skillsIcons}>
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faHtml5} />
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faCss3Alt} />
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faJs} />
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faReact} />
-                        <SiReactrouter className={styles.FontAwesomeIcon}/>
-                        <SiChakraui className={styles.FontAwesomeIcon}/>
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faGit} />
-                        <FontAwesomeIcon className={styles.FontAwesomeIcon} icon={faGithub} />
+                        <FaHtml5 className={styles.icons} />
+                        <FaCss3Alt className={styles.icons} />
+                        <SiJavascript className={styles.icons} />
+                        <FaReact className={styles.icons} />
+                        <SiReactrouter className={styles.icons}/>
+                        <SiChakraui className={styles.icons} />
+                        <FaGit className={styles.icons} />
+                        <FaGithub className={styles.icons} />
                     </div>
                 </section>
             </div>
