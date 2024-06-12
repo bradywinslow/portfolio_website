@@ -8,8 +8,8 @@ export default function Footer() {
             <div className={styles.contactIcons}>
                 <Contact />
             </div>
-            <div className={styles.h4}>
-                <h4>&copy; 2023-2024 Brady Winslow. All Rights Reserved.</h4>
+            <div className={styles.p}>
+                <p>&copy; 2023-2024 Brady Winslow. All Rights Reserved.</p>
             </div>
         </div>
     );
