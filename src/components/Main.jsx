@@ -23,7 +23,7 @@ export default function Main() {
                     <h2>Projects</h2>
                     <div className={styles.details}>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://github.com/bradywinslow/jammming'>Jammming</a></h3>
+                            <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -36,9 +36,10 @@ export default function Main() {
                                 ></iframe>
                             </div>
                             <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                            <h5><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h5>
                         </article>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://github.com/bradywinslow/findYourHat'>Find Your Hat</a></h3>
+                            <h3><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -51,6 +52,7 @@ export default function Main() {
                                 ></iframe>
                             </div>
                             <p>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
+                            <h5><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h5>
                         </article>
                     </div>
                 </section>
