@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Main.module.css';
 import aboutPhoto from "../Headshot.jpg";
 import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiReactrouter, SiChakraui } from "react-icons/si";
+import { SiJavascript, SiChakraui } from "react-icons/si";
 
 export default function Main() {
     return (
@@ -61,7 +61,6 @@ export default function Main() {
                         <FaCss3Alt className={styles.icons} />
                         <SiJavascript className={styles.icons} />
                         <FaReact className={styles.icons} />
-                        <SiReactrouter className={styles.icons}/>
                         <SiChakraui className={styles.icons} />
                         <FaGit className={styles.icons} />
                         <FaGithub className={styles.icons} />
