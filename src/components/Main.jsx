@@ -14,7 +14,7 @@ export default function Main() {
                     <div className={styles.about}>
                         <div className={styles.aboutText}>
                             <p>I have a Ph.D. in history and have worked as a secondary school history teacher and in customer success.</p>
-                            <p>I'm now a self-taught front-end web developer. Drawing on my previous roles, I'm devoted to building customer-oriented and user-friendly applications.</p>
+                            <p>I'm now a front-end web developer. Drawing on my previous roles, I'm devoted to building customer-oriented and user-friendly applications.</p>
                             <p>I live in the San Francisco Bay Area.</p>
                         </div>
                         <img src={aboutPhoto} alt='Headshot' className={styles.headshot}/>
