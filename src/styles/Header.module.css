@@ -21,7 +21,6 @@
 .logoContainer {
     display: flex;
     align-items: center;
-    
 }
 
 .logoImage {
@@ -83,7 +82,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .logo {
+    .logoImage {
+        height: 2.85rem;
+    }
+    .logo p {
         font-size: 1.35rem;
     }
     .ul {
@@ -129,6 +131,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .logoImage {
+        height: 2.75rem;
+    }
+    .logo p {
+        font-size: 1.2rem;
+    }
     .navContainer {
         margin-left: 12%;
         margin-right: 12%;
@@ -139,6 +147,12 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .logoImage {
+        height: 2.5rem;
+    }
+    .logo p {
+        font-size: 1.05rem;
+    }
     .navContainer {
         margin-left: 9%;
         margin-right: 9%;
