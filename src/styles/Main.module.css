@@ -117,7 +117,7 @@
 .icons {
     height: 2.5rem;
     width: 2.5rem;
-    margin: 2rem 3.5rem 3rem 3.5rem;
+    margin: 2rem 3rem 3rem 3rem;
 }
 
 @media only screen and (max-width: 90rem) {
@@ -154,7 +154,7 @@
     .icons {
         height: 2.25rem;
         width: 2.25rem;
-        margin: 1.75rem 3.25rem 2.75rem 3.25rem;
+        margin: 1.75rem 2.75rem 2.75rem 2.75rem;
     }
 }
 
@@ -179,6 +179,12 @@
     .icons {
         height: 2.15rem;
         width: 2.15rem;
-        margin: 1.65rem 2.75rem 2.65rem 2.75rem;
+        margin: 1.65rem 2.5rem 2.65rem 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .icons {
+        margin: 1.65rem 1.75rem 2.25rem 1.75rem;
     }
 }
