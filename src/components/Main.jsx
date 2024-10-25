@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/Main.module.css';
 import aboutPhoto from '../Headshot.jpg';
+import jammmingDemo from '../jammming.demo.mp4';
 import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from 'react-icons/fa';
 import { SiJavascript, SiTypescript, SiChakraui } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
@@ -26,15 +27,16 @@ export default function Main() {
                         <article className={styles.projectDetails}>
                             <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
-                                <iframe
+                                <video
                                     className={styles.video}
-                                    src='https://www.loom.com/embed/52d0172d70c84cfb8a0cb8e0bd809174?sid=22ebd1fc-0561-4815-83b7-e03714b77688'
+                                    src={jammmingDemo}
                                     title='Jammming application video demo'
+                                    controls
                                     frameBorder="0"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
                                     allow='fullscreen'
-                                ></iframe>
+                                ></video>
                             </div>
                             <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
                             <h4><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
