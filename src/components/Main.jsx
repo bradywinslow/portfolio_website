@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '../styles/Main.module.css';
 import aboutPhoto from '../Headshot.jpg';
-import jammmingDemo from '../jammming.demo.mp4';
 import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from 'react-icons/fa';
 import { SiJavascript, SiTypescript, SiChakraui } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
@@ -27,16 +26,19 @@ export default function Main() {
                         <article className={styles.projectDetails}>
                             <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
-                                <video
+                                <iframe
                                     className={styles.video}
-                                    src={jammmingDemo}
+                                    width='560'
+                                    height='315'
+                                    src="https://www.youtube.com/embed/MwwC1-GyGZ0?si=CYd3Y0fvdf7oIfov"
                                     title='Jammming application video demo'
                                     controls
-                                    frameBorder="0"
+                                    frameBorder='0'
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
-                                    allow='fullscreen'
-                                ></video>
+                                ></iframe>
                             </div>
                             <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
                             <h4><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
