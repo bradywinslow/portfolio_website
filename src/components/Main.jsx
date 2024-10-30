@@ -30,7 +30,7 @@ export default function Main() {
                                     className={styles.video}
                                     width='560'
                                     height='315'
-                                    src='https://youtu.be/WSdDwcX9JZQ?si=2Okqnt_zf5pxa5gU'
+                                    src='https://www.youtube.com/embed/WSdDwcX9JZQ?si=86-eQ7siCpWD-vt6'
                                     title='Jammming application video demo'
                                     controls
                                     frameBorder='0'
@@ -50,7 +50,7 @@ export default function Main() {
                                     className={styles.video}
                                     width='560'
                                     height='315'
-                                    src='https://youtu.be/YCnOO_iZ2fw?si=wQ7CwL3F7CRGhj9w'
+                                    src='https://www.youtube.com/embed/YCnOO_iZ2fw?si=c1ySWXxX3lchUJIk'
                                     title='Find Your Hat application video demo'
                                     controls
                                     frameBorder="0"
