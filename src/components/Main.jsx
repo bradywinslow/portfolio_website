@@ -30,7 +30,7 @@ export default function Main() {
                                     className={styles.video}
                                     width='560'
                                     height='315'
-                                    src="https://www.youtube.com/embed/MwwC1-GyGZ0?si=CYd3Y0fvdf7oIfov"
+                                    src='https://youtu.be/WSdDwcX9JZQ'
                                     title='Jammming application video demo'
                                     controls
                                     frameBorder='0'
@@ -48,12 +48,16 @@ export default function Main() {
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
-                                    src='https://www.loom.com/embed/e75761eb90f24aefa62a0fc6cfa5dd80?sid=939e91fe-1b77-4e7c-8c9e-e063f2367d4d'
+                                    width='560'
+                                    height='315'
+                                    src='https://youtu.be/YCnOO_iZ2fw'
                                     title='Find Your Hat application video demo'
+                                    controls
                                     frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
-                                    allow='fullscreen'
                                 ></iframe>
                             </div>
                             <p>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
@@ -64,12 +68,16 @@ export default function Main() {
                             { /* <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
-                                    src='https://www.loom.com/embed/e75761eb90f24aefa62a0fc6cfa5dd80?sid=939e91fe-1b77-4e7c-8c9e-e063f2367d4d'
-                                    title='Find Your Hat application video demo'
+                                    width='560'
+                                    height='315'
+                                    src='https://youtu.be/YCnOO_iZ2fw'
+                                    title='Reddit Client Gaming Feed application video demo'
+                                    controls
                                     frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
-                                    allow='fullscreen'
                                 ></iframe>
                             </div> */ }
                             <p>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
