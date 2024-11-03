@@ -33,16 +33,17 @@ Welcome to my portfolio! This website serves as a central hub for potential empl
 ### Project 1: [Jammming](https://jammming-playlist-builder.netlify.app)
 - Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.
 - [GitHub repository](https://github.com/bradywinslow/jammming)
-- Video demo:
-
-
-https://github.com/user-attachments/assets/1cf8b52d-bdac-4a40-8695-37dfe8481daa
-
+- [![Video demo](https://img.youtube.com/vi/WSdDwcX9JZQ/0.jpg)](https://www.youtube.com/watch?v=WSdDwcX9JZQ)
 
 ### Project 2: [Find Your Hat](https://findyourhat.netlify.app/)
 - Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.
 - [GitHub respository](https://github.com/bradywinslow/findYourHat)
-- [Video demo](https://www.loom.com/embed/e75761eb90f24aefa62a0fc6cfa5dd80?sid=939e91fe-1b77-4e7c-8c9e-e063f2367d4d)
+- [![Video demo](https://img.youtube.com/vi/YCnOO_iZ2fw/0.jpg)](https://www.youtube.com/watch?v=YCnOO_iZ2fw)
+
+### Project 3: [Reddit Client Gaming Feed](https://reddit-client-gaming-feed.vercel.app/)
+- Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.
+- [GitHub repository](https://github.com/bradywinslow/reddit-client)
+- Video demo:
 
 ## Getting Started
 To run this website locally:
