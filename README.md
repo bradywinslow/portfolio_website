@@ -32,12 +32,12 @@ Welcome to my portfolio! This website serves as a central hub for potential empl
 ## Projects
 ### Project 1: [Jammming](https://jammming-playlist-builder.netlify.app)
 - Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.
-- [GitHub repository](https://github.com/bradywinslow/jammming)
+- [GitHub repository](https://github.com/bradywinslow/jammming)  
 [![Video demo](https://img.youtube.com/vi/WSdDwcX9JZQ/0.jpg)](https://www.youtube.com/watch?v=WSdDwcX9JZQ)
 
 ### Project 2: [Find Your Hat](https://findyourhat.netlify.app/)
 - Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.
-- [GitHub respository](https://github.com/bradywinslow/findYourHat)
+- [GitHub respository](https://github.com/bradywinslow/findYourHat)  
 [![Video demo](https://img.youtube.com/vi/YCnOO_iZ2fw/0.jpg)](https://www.youtube.com/watch?v=YCnOO_iZ2fw)
 
 ### Project 3: [Reddit Client Gaming Feed](https://reddit-client-gaming-feed.vercel.app/)
