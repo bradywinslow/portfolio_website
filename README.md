@@ -46,6 +46,7 @@ Welcome to my portfolio! This website serves as a central hub for potential empl
 - Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.
 - [GitHub repository](https://github.com/bradywinslow/reddit-client)
 - Video demo:  
+[![Video demo](https://img.youtube.com/vi/Ixs2bfRP0Sg/0.jpg)](https://www.youtube.com/watch?v=Ixs2bfRP0Sg)
 
 ## Getting Started
 To run this website locally:
