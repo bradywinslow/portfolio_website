@@ -24,24 +24,24 @@ export default function Main() {
                     <h2>Projects</h2>
                     <div className={styles.details}>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
+                            <h3><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
                                     width='560'
                                     height='315'
-                                    src='https://www.youtube.com/embed/WSdDwcX9JZQ?si=86-eQ7siCpWD-vt6'
-                                    title='Jammming application video demo'
+                                    src='https://www.youtube.com/embed/Ixs2bfRP0Sg?si=7YlVVqlX9ZjWJQMx'
+                                    title='Reddit Client Gaming Feed application video demo'
                                     controls
-                                    frameBorder='0'
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
                                     referrerpolicy="strict-origin-when-cross-origin"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
-                            <h4><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
+                            <p>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
+                            <h4><a href='https://github.com/bradywinslow/reddit-client'>GitHub Repo</a></h4> 
                         </article>
                         <article className={styles.projectDetails}>
                             <h3><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
@@ -64,24 +64,24 @@ export default function Main() {
                             <h4><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h4>
                         </article>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
+                        <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
                                     width='560'
                                     height='315'
-                                    src='https://www.youtube.com/embed/Ixs2bfRP0Sg?si=7YlVVqlX9ZjWJQMx'
-                                    title='Reddit Client Gaming Feed application video demo'
+                                    src='https://www.youtube.com/embed/WSdDwcX9JZQ?si=86-eQ7siCpWD-vt6'
+                                    title='Jammming application video demo'
                                     controls
-                                    frameBorder="0"
+                                    frameBorder='0'
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
                                     referrerpolicy="strict-origin-when-cross-origin"
                                     webkitallowfullscreen='true'
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
-                            <h4><a href='https://github.com/bradywinslow/reddit-client'>GitHub Repo</a></h4>
+                            <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                            <h4><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
                         </article>
                     </div>
                 </section>
