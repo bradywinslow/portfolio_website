@@ -41,7 +41,11 @@
     justify-content: center;
     text-align: center;
     max-width: 37rem;
-    font-size: 1.35rem;
+    font-size: 1.3rem;
+}
+
+.videoDemoText {
+    font-size: 1.3rem;
 }
 
 .headshot {
@@ -57,6 +61,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 12px;
+}
+
+.sectionHeading {
+    font-size: 1.65rem;
 }
 
 .projects h2 {
@@ -78,6 +86,10 @@
     margin: 0 2rem 2rem 2rem;
 }
 
+.projectLink {
+    font-size: 1.55rem;
+}
+
 .videoDemo {
     position: relative;
     padding-bottom: 56.25%;
@@ -91,6 +103,10 @@
     width: 100%;
     height: 100%;
     border-radius: 12px;
+}
+
+.githubLink {
+    font-size: 1.45rem;
 }
 
 .skills {
@@ -132,8 +148,23 @@
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
+    .greeting {
+        font-size: 1.7rem;
+    }
+    .aboutText, .videoDemoText {
+        font-size: 1.25rem;
+    }
+    .sectionHeading {
+        font-size: 1.6rem;
+    }
     .projects {
         margin-bottom: 5rem;
+    }
+    .projectLink {
+        font-size: 1.5rem;
+    }
+    .githubLink {
+        font-size: 1.4rem;
     }
     .skills {
         margin-bottom: 5rem;
@@ -148,18 +179,24 @@
     .greeting {
         font-size: 1.6rem;
     }
-    h2 {
-        font-size: 1.35rem;
-    }
-    .aboutText p {
-        font-size: 1.25rem;
+    .aboutText, .videoDemoText {
+        font-size: 1.15rem;
     }
     .headshot {
         max-width: 17.5rem;
         height: 100%;
     }
+    .sectionHeading {
+        font-size: 1.5rem;
+    }
     .projectDetails {
         font-size: 1.15rem;
+    }
+    .projectLink {
+        font-size: 1.4rem;
+    }
+    .githubLink {
+        font-size: 1.3rem;
     }
     .skillsIcons {
         justify-content: center;
@@ -191,13 +228,13 @@
         height: 100%;
     }
     .greeting {
-        font-size: 1.45rem;
+        font-size: 1.5rem;
     }
-    h2 {
-        font-size: 1.15rem;
+    .sectionHeading {
+        font-size: 1.4rem;
     }
-    .aboutText p {
-        font-size: 1rem;
+    .aboutText, .videoDemoText {
+        font-size: 1.05rem;
     }
     .icons {
         height: 2.15rem;
@@ -210,6 +247,12 @@
     }
     .projects {
         margin-bottom: 3rem;
+    }
+    .projectLink {
+        font-size: 1.3rem;
+    }
+    .githubLink {
+        font-size: 1.2rem;
     }
     .skills {
         margin-bottom: 3rem;

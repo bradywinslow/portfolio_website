@@ -21,10 +21,10 @@ export default function Main() {
                     </div>
                 </section>
                 <section id='projects' className={styles.projects}>
-                    <h2>Projects</h2>
+                    <h2 className={styles.sectionHeading}>Projects</h2>
                     <div className={styles.details}>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
+                            <h3 className={styles.projectLink}><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -40,11 +40,11 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
-                            <h4><a href='https://github.com/bradywinslow/reddit-client'>GitHub Repo</a></h4> 
+                            <p className={styles.videoDemoText}>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
+                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/reddit-client'>GitHub Repo</a></h4> 
                         </article>
                         <article className={styles.projectDetails}>
-                            <h3><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
+                            <h3 className={styles.projectLink}><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -60,11 +60,11 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
-                            <h4><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h4>
+                            <p className={styles.videoDemoText}>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
+                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h4>
                         </article>
                         <article className={styles.projectDetails}>
-                        <h3><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
+                            <h3 className={styles.projectLink}><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -80,13 +80,13 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
-                            <h4><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
+                            <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
                         </article>
                     </div>
                 </section>
                 <section className={styles.skills}>
-                    <h2 id='skills'>Skills</h2>
+                    <h2 className={styles.sectionHeading} id='skills'>Skills</h2>
                     <div className={styles.skillsIcons}>
                         <FaHtml5 className={styles.icons} />
                         <FaCss3Alt className={styles.icons} />
