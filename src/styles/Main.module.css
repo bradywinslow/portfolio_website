@@ -83,7 +83,7 @@
     font-size: 1.25rem;
     text-align: center;
     max-width: 24rem;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 2rem 0 2rem;
 }
 
 .projectLink {
@@ -106,7 +106,7 @@
 }
 
 .githubLink {
-    font-size: 1.45rem;
+    font-size: 1.2rem;
 }
 
 .skills {
@@ -164,7 +164,7 @@
         font-size: 1.5rem;
     }
     .githubLink {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     .skills {
         margin-bottom: 5rem;
@@ -196,7 +196,7 @@
         font-size: 1.4rem;
     }
     .githubLink {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .skillsIcons {
         justify-content: center;
@@ -252,7 +252,7 @@
         font-size: 1.3rem;
     }
     .githubLink {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     .skills {
         margin-bottom: 3rem;

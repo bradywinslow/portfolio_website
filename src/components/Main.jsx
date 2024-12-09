@@ -80,7 +80,7 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to their Spotify account.</p>
+                            <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to Spotify.</p>
                             <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
                         </article>
                     </div>
