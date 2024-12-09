@@ -60,7 +60,7 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p className={styles.videoDemoText}>Find Your Hat is a game. After setting the width and height of the playing field, along with the percentage of the field to be covered in holes, a user navigates through the field, trying to avoid the holes to find the hat.</p>
+                            <p className={styles.videoDemoText}>Find Your Hat is a game. After setting a width and height, and a percentage for holes to appear on the field, a user navigates through the field, trying to avoid the holes to find the hat.</p>
                             <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h4>
                         </article>
                         <article className={styles.projectDetails}>
