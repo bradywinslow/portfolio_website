@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../styles/Contact.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
     return (
@@ -24,15 +23,6 @@ export default function Contact() {
                 aria-label='GitHub'
             >
                 <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
-                className={styles.FontAwesomeIcon}
-                href='mailto:brady.winslow@gmail.com'
-                target='_blank'
-                rel='noreferrer'
-                aria-label='Email'
-            >
-                <FontAwesomeIcon icon={faEnvelope} />
             </a>
         </div>
     )
