@@ -145,6 +145,34 @@ article {
     border: 0;
     font-size: 16px;
     margin-top: 25px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.githubButton:hover {
+    background: #003C60;
+	color: #dcefff;
+    box-shadow: none;
+}
+
+.githubButton:focus {
+    background: #003C60;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.githubButton:active {
+    background: #011c2c;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.githubButton:disabled {
+    background: #21638b;
+    color: #dcefff;
+    box-shadow: none;
 }
 
 .githubLink {
