@@ -1,12 +1,11 @@
 .nav {
     background-color: #032B43;
-    height: 4.5rem;
+    height: 5rem;
     font-size: 1.1rem;
     font-weight: 300;
     display: flex;
     width: 100%;
-    top: 0;
-    z-index: 1000;
+    z-index: 9999;
     position: fixed;
 }
 

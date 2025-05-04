@@ -25,7 +25,6 @@ export default function Main() {
                     <h2 className={styles.sectionHeading}>Projects</h2>
                     <div className={styles.details}>
                         <article className={styles.projectDetails}>
-                            <h3 className={styles.projectLink}><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -41,11 +40,26 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p className={styles.videoDemoText}>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
-                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/reddit-client'>GitHub Repo</a></h4> 
+                            <div className={styles.projectCardText}>
+                                <h3 className={styles.projectLink}><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
+                                <p className={styles.videoDemoText}>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
+                                <p>Technologies: HTML5, CSS3, TypeScript, Next.js, Chakra UI, Vercel</p>
+                            </div>
+                            <a
+                                className={styles.githubLink}
+                                href='https://github.com/bradywinslow/reddit-client'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <button
+                                    className={styles.githubButton}
+                                    type='button'
+                                >
+                                    GitHub Repo    
+                                </button>
+                            </a>
                         </article>
                         <article className={styles.projectDetails}>
-                            <h3 className={styles.projectLink}><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -61,11 +75,26 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p className={styles.videoDemoText}>Find Your Hat is a game. After setting a width and height, and a percentage for holes to appear on the field, a user navigates through the field, trying to avoid the holes to find the hat.</p>
-                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/findYourHat'>GitHub Repo</a></h4>
+                            <div className={styles.projectCardText}>
+                                <h3 className={styles.projectLink}><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
+                                <p className={styles.videoDemoText}>Find Your Hat is a game. After setting a width and height, and a percentage for holes to appear on the field, a user navigates through the field, trying to avoid the holes to find the hat.</p>
+                                <p>Technologies: HTML5, CSS3, JavaScript, React, React Router, Netlify</p>
+                            </div>
+                            <a
+                                className={styles.githubLink}
+                                href='https://github.com/bradywinslow/findYourHat'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <button
+                                    className={styles.githubButton}
+                                    type='button'
+                                >
+                                    GitHub Repo
+                                </button>
+                            </a>
                         </article>
                         <article className={styles.projectDetails}>
-                            <h3 className={styles.projectLink}><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
                             <div className={styles.videoDemo}>
                                 <iframe
                                     className={styles.video}
@@ -81,8 +110,24 @@ export default function Main() {
                                     mozallowfullscreen='true'
                                 ></iframe>
                             </div>
-                            <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to Spotify.</p>
-                            <h4 className={styles.githubLink}><a href='https://github.com/bradywinslow/jammming'>GitHub Repo</a></h4>
+                            <div className={styles.projectCardText}>
+                                <h3 className={styles.projectLink}><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
+                                <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to Spotify.</p>
+                                <p>Technologies: HTML5, CSS3, JavaScript, React, React Router, Chakra UI, Netlify</p>
+                            </div>
+                            <a
+                                className={styles.githubLink}
+                                href='https://github.com/bradywinslow/jammming'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <button
+                                    className={styles.githubButton}
+                                    type='button'
+                                >
+                                    GitHub Repo
+                                </button>
+                            </a>
                         </article>
                     </div>
                 </section>

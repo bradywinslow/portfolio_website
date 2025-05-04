@@ -32,7 +32,7 @@ export default function Header() {
         <nav className={styles.nav}>
             <div className={styles.navContainer}>
                 <div className={styles.logoContainer}>
-                    <a className={styles.logo} href="./">
+                    <a className={styles.logo} href='#top'>
                         <img className={styles.logoImage} src='../logo500.png' alt='logo' />
                         <p>BRADY WINSLOW</p>
                     </a>

@@ -12,9 +12,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 12px;
-    margin-top: 9rem;
+    margin-top: 5rem;
     margin-bottom: 6rem;
     max-width: 70rem;
+    background-color: #dcefff;
 }
 
 .greeting {
@@ -54,6 +55,13 @@
     border-radius: 12px;
 }
 
+article {
+    border: 1px solid #9eadbd;
+    border-radius: 12px;
+    background-color: #dcefff;
+    padding: 20px;
+}
+
 .projects {
     max-width: 70rem;
     margin-bottom: 6rem;
@@ -61,15 +69,17 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 12px;
+    background-color: #dcefff;
 }
 
 .sectionHeading {
     font-size: 1.65rem;
+    margin-bottom: 35px;
 }
 
 .projects h2 {
     text-align: center;
-    line-height: 1.3rem;
+    line-height: 1rem;
 }
 
 .details {
@@ -77,17 +87,35 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 35px;
 }
 
 .projectDetails {
     font-size: 1.25rem;
     text-align: center;
     max-width: 24rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.projectCardText {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.projectCardText p {
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
 .projectLink {
-    font-size: 1.55rem;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.projectLink a {
+    text-decoration: none;
+    color: #032B43;
 }
 
 .videoDemo {
@@ -105,8 +133,22 @@
     border-radius: 12px;
 }
 
+.githubButton {
+    background-color: #032B43;
+    color: #FF9C1A;
+    width: 100%;
+    height: 3rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
 .githubLink {
-    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .skills {
@@ -116,6 +158,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 12px;
+    background-color: #dcefff;
 }
 
 .skills h2 {
@@ -143,6 +186,7 @@
     border-radius: 12px;
     margin-bottom: 6rem;
     max-width: 70rem;
+    background-color: #dcefff;
 }
 
 .contact h2 {
