@@ -1,0 +1,97 @@
+.contactFormContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contactForm {
+    max-width: 40rem;
+    padding: 20px;
+}
+
+.formFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameEmailFields {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameField, .emailField {
+    width: 100%;
+}
+
+.emailField {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactFormInputFields {
+    background-color: #DCEFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 2rem;
+    width: 95%;
+}
+
+.contactFormMessage {
+    background-color: #DCEFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.contactFormMessageContainer {
+    display: flex;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+.sendButton {
+    background-color: #032B43;
+    color: #FF9C1A;
+    width: 100%;
+    height: 3rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    margin-top: 25px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background: #003C60;
+	color: #dcefff;
+    box-shadow: none;
+}
+
+.sendButton:focus {
+    background: #003C60;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.sendButton:active {
+    background: #011c2c;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.sendButton:disabled {
+    background: #21638b;
+    color: #dcefff;
+    box-shadow: none;
+}

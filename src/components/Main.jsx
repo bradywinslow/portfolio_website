@@ -4,7 +4,8 @@ import aboutPhoto from '../Headshot.jpg';
 import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from 'react-icons/fa';
 import { SiJavascript, SiTypescript, SiChakraui } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
-import Contact from './Contact.jsx';
+import ContactIcons from './ContactIcons.jsx';
+import ContactForm from './ContactForm.jsx';
 
 export default function Main() {
     return (
@@ -147,10 +148,12 @@ export default function Main() {
                 </section>
                 <section className={styles.contact}>
                     <h2 className={styles.sectionHeading} id='contact'>Contact</h2>
-                    <div className={styles.contactContent}>
-                        <Contact />
+                    <div className={styles.contactForm}>
+                        <ContactForm />
                     </div>
-
+                    <div className={styles.contactIcons}>
+                        <ContactIcons />
+                    </div>
                 </section>
             </div>
         </>

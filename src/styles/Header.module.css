@@ -39,6 +39,10 @@
     font-weight: 600;
 }
 
+.logo:hover {
+    color: #FF9C1A;
+}
+
 .navContainer a {
     background-color: none;
     cursor: pointer;

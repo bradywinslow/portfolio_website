@@ -210,7 +210,7 @@ article {
 .contact {
     border: 1px solid #032B43;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 2rem;
+    padding: 2rem 5rem 2rem 5rem;
     border-radius: 12px;
     margin-bottom: 6rem;
     max-width: 70rem;
@@ -222,11 +222,15 @@ article {
     line-height: 1.3rem;
 }
 
-.contactContent {
+.contactIcons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.contactForm {
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 90rem) {
@@ -260,6 +264,9 @@ article {
         font-size: 1.1rem;
     }
     .skills {
+        margin-bottom: 5rem;
+    }
+    .contact {
         margin-bottom: 5rem;
     }
 }
@@ -309,6 +316,9 @@ article {
     .skills {
         margin-bottom: 4rem;
     }
+    .contact {
+        margin-bottom: 4rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -348,6 +358,9 @@ article {
         font-size: 0.9rem;
     }
     .skills {
+        margin-bottom: 3rem;
+    }
+    .contact {
         margin-bottom: 3rem;
     }
 }
