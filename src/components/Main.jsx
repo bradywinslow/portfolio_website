@@ -12,14 +12,28 @@ export default function Main() {
         <>
             <div className={styles.mainContent}>
                 <section id='about' className={styles.aboutContainer}>
-                    <h1 className={styles.greeting}>Hi, I'm Brady!</h1>
+                    <h2 className={styles.sectionHeading}>About</h2>
                     <div className={styles.about}>
-                        <div className={styles.aboutText}>
-                            <p>I have a Ph.D. in history and have worked as a secondary school history teacher and in customer success.</p>
-                            <p>I'm now a front-end web developer. Drawing on my previous roles, I'm devoted to building customer-oriented and user-friendly applications.</p>
-                            <p>I live in the San Francisco Bay Area.</p>
+                        <div className={styles.aboutTextAndPhoto}>
+                            <div className={styles.aboutText}>
+                                <p>I have a Ph.D. in history and have worked as a secondary school history teacher and in customer success.</p>
+                                <p>I'm now a front-end web developer. Drawing on my previous roles, I'm devoted to building customer-oriented and user-friendly applications.</p>
+                                <p>I live in the San Francisco Bay Area.</p>
+                            </div>
+                            <div className={styles.headshotContainer}>
+                                <img src={aboutPhoto} alt='Headshot' className={styles.headshot}/>
+                            </div>
                         </div>
-                        <img src={aboutPhoto} alt='Headshot' className={styles.headshot}/>
+                        <div className={styles.resumeButton}>
+                            <a href='/Brady_Winslow_Resume.pdf' download target='_blank'>
+                                <button
+                                    className={styles.buttons}
+                                    type='button'
+                                >
+                                    Download Resume
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section id='projects' className={styles.projects}>
@@ -53,7 +67,7 @@ export default function Main() {
                                 rel='noopener noreferrer'
                             >
                                 <button
-                                    className={styles.githubButton}
+                                    className={styles.buttons}
                                     type='button'
                                 >
                                     GitHub Repo    
@@ -88,7 +102,7 @@ export default function Main() {
                                 rel='noopener noreferrer'
                             >
                                 <button
-                                    className={styles.githubButton}
+                                    className={styles.buttons}
                                     type='button'
                                 >
                                     GitHub Repo
@@ -123,7 +137,7 @@ export default function Main() {
                                 rel='noopener noreferrer'
                             >
                                 <button
-                                    className={styles.githubButton}
+                                    className={styles.buttons}
                                     type='button'
                                 >
                                     GitHub Repo
