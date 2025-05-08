@@ -9,36 +9,33 @@ export default function ContactForm() {
                 <form className={styles.formFields}>
                     <div className={styles.nameEmailFields}>
                         <div className={styles.nameField}>
-                            <label for='name'></label>
+                            <label className={styles.formLabels} for='name'>Name</label>
                             <input
                                 className={styles.contactFormInputFields}
                                 type='text'
                                 name='name'
                                 id='name'
-                                placeholder='Name'
                                 required
                             />
                         </div>
                         <div className={styles.emailField}>
-                            <label for='email'></label>
+                            <label className={styles.formLabels} for='email'>Email</label>
                             <input
                                 className={styles.contactFormInputFields}
                                 type='email'
                                 name='email'
                                 id='email'
-                                placeholder='Email'
                                 required
                             />
                         </div>
                     </div>
                     <div className={styles.contactFormMessageContainer}>
-                        <label for='message'></label>
+                        <label className={styles.formLabels} for='message'>Message</label>
                         <textarea
                             className={styles.contactFormMessage}
                             name='message'
                             required
                             id='message'
-                            placeholder='Message'
                             rows='5'
                             form='contactForm'
                             spellcheck

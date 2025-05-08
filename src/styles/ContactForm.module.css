@@ -6,6 +6,9 @@
 .contactForm {
     max-width: 40rem;
     padding: 20px;
+    border: 1px solid #9eadbd;
+    border-radius: 12px;
+    background-color: #dcefff;
 }
 
 .formFields {
@@ -16,42 +19,46 @@
 .nameEmailFields {
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
-.nameField, .emailField {
-    width: 100%;
+.nameField {
+    flex: 1;
 }
 
 .emailField {
-    display: flex;
-    justify-content: right;
+    flex: 1;
 }
 
 .contactFormInputFields {
+    border: 1px solid #9eadbd;
+    border-radius: 12px;
     background-color: #DCEFFF;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     line-height: 3rem;
-    width: 100%;
+    width: stretch;
+    margin-top: 10px;
 }
 
 .contactFormMessage {
     background-color: #DCEFFF;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 2rem;
+    border-radius: 12px;
+    margin-top: 10px;
     line-height: 3rem;
 }
 
 .contactFormMessageContainer {
     display: flex;
+    flex-direction: column;
+    margin-top: 25px;
 }
 
 textarea {
-    width: 100%;
+    width: stretch;
     resize: none;
+}
+
+.formLabels {
+    margin-bottom: 5px;
 }
 
 .sendButton {
@@ -63,7 +70,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0;
     font-size: 16px;
     margin-top: 25px;
     box-shadow: none;
@@ -99,6 +105,7 @@ textarea {
 @media only screen and (max-width: 768px) {
     .nameEmailFields {
         flex-direction: column;
+        gap: 25px;
     }
     .emailField {
         justify-content: left;

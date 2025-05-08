@@ -25,7 +25,7 @@ export default function Main() {
                             </div>
                         </div>
                         <div className={styles.resumeButton}>
-                            <a href='/Brady_Winslow_Resume.pdf' download target='_blank'>
+                            <a href='/Brady_Winslow_Resume.pdf' download target='_blank' className={styles.resumeLink}>
                                 <button
                                     className={styles.buttons}
                                     type='button'
