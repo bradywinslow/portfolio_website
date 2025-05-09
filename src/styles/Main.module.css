@@ -71,9 +71,11 @@
 }
 
 .headshot {
+    width: 100%;
     max-width: 20rem;
     height: auto;
     border-radius: 12px;
+    display: block;
 }
 
 .projectDetails {
@@ -303,10 +305,6 @@
     .aboutText, .videoDemoText {
         font-size: 1.15rem;
     }
-    .headshot {
-        max-width: 17.5rem;
-        height: 100%;
-    }
     .sectionHeading {
         font-size: 1.5rem;
     }
@@ -347,10 +345,6 @@
     .mainContent {
         margin-left: 9%;
         margin-right: 9%;
-    }
-    .headshot {
-        max-width: 12rem;
-        height: 100%;
     }
     .greeting {
         font-size: 1.5rem;
