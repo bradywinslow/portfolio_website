@@ -56,7 +56,15 @@ export default function Main() {
                                 ></iframe>
                             </div>
                             <div className={styles.projectCardText}>
-                                <h3 className={styles.projectLink}><a href='https://reddit-client-gaming-feed.vercel.app/'>Reddit Client Gaming Feed</a></h3>
+                                <h3 className={styles.projectLink}>
+                                    <a
+                                        href='https://reddit-client-gaming-feed.vercel.app/'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        Reddit Client Gaming Feed
+                                    </a>
+                                </h3>
                                 <p className={styles.videoDemoText}>Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.</p>
                                 <p>Technologies: HTML5, CSS3, TypeScript, Next.js, Chakra UI, Vercel</p>
                             </div>
@@ -91,7 +99,15 @@ export default function Main() {
                                 ></iframe>
                             </div>
                             <div className={styles.projectCardText}>
-                                <h3 className={styles.projectLink}><a href='https://findyourhat.netlify.app/'>Find Your Hat</a></h3>
+                                <h3 className={styles.projectLink}>
+                                    <a
+                                        href='https://findyourhat.netlify.app/'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        Find Your Hat
+                                    </a>
+                                </h3>
                                 <p className={styles.videoDemoText}>Find Your Hat is a game. After setting a width and height, and a percentage for holes to appear on the field, a user navigates through the field, trying to avoid the holes to find the hat.</p>
                                 <p>Technologies: HTML5, CSS3, JavaScript, React, React Router, Netlify</p>
                             </div>
@@ -126,7 +142,15 @@ export default function Main() {
                                 ></iframe>
                             </div>
                             <div className={styles.projectCardText}>
-                                <h3 className={styles.projectLink}><a href='https://jammming-playlist-builder.netlify.app/'>Jammming</a></h3>
+                                <h3 className={styles.projectLink}>
+                                    <a
+                                    href='https://jammming-playlist-builder.netlify.app/'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    >
+                                        Jammming
+                                    </a>
+                                </h3>
                                 <p className={styles.videoDemoText}>Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to Spotify.</p>
                                 <p>Technologies: HTML5, CSS3, JavaScript, React, React Router, Chakra UI, Netlify</p>
                             </div>
