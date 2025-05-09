@@ -27,8 +27,10 @@ Welcome to my portfolio! This website serves as a central hub for potential empl
 - CSS3
 - JavaScript
 - React
-- GitHub Pages
+- Netlify
 
+## Deploy Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1b065479-2140-4ec2-9130-b6be6fa034ef/deploy-status)](https://app.netlify.com/sites/bradywinslow/deploys)
 ## Projects
 ### Project 1: [Reddit Client Gaming Feed](https://reddit-client-gaming-feed.vercel.app/)
 - Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.
@@ -71,12 +73,6 @@ npm start
 ```
 
 4. Open 'http://localhost:3000' in your browser.
-
-## Deploy
-From: https://blog.logrocket.com/deploying-react-apps-github-pages/#pushing-the-react-app-to-the-github-repository
-```
-npm run deploy
-```
 
 ## How to Use
 Simply visit [my portfolio website](https://bradywinslow.com) and explore the different sections.
