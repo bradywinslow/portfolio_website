@@ -6,9 +6,14 @@ export default function ContactForm() {
         <div className={styles.contactFormContainer}>
             <article className={styles.contactForm}>
                 <p>Reach out if you have any questions, feedback, or if you're interested in collaborating.</p>
-                <form className={styles.formFields} name='contact' method='POST' data-netlify='true'>
+                <form
+                    className={styles.formFields}
+                    name='contact'
+                    method='POST'
+                >
                     <div className={styles.nameEmailFields}>
                         <div className={styles.nameField}>
+                        <input type='hidden' name='form-name' value='contact' />
                             <label className={styles.formLabels} for='name'>Name</label>
                             <input
                                 className={styles.contactFormInputFields}
