@@ -42,7 +42,6 @@ export default function ContactForm() {
                             required
                             id='message'
                             rows='5'
-                            form='contactForm'
                             spellcheck
                             wrap='hard'
                         ></textarea>
