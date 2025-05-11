@@ -6,7 +6,6 @@ import Footer from './components/Footer.jsx';
 export default function App() {
   return (
     <>
-
       <header>
         <Header />
       </header>
@@ -18,7 +17,6 @@ export default function App() {
       <footer>
         <Footer />          
       </footer>
-
     </>
   );
 }
