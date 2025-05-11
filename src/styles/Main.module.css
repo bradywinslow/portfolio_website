@@ -199,7 +199,7 @@
     text-decoration: none;
 }
 
-.skills {
+.skillsSection {
     max-width: 70rem;
     margin-bottom: 6rem;
     border: 1px solid #032B43;
@@ -209,28 +209,15 @@
     background-color: #dcefff;
 }
 
-.skills h2 {
+.skillsSection h2 {
     text-align: center;
     line-height: 1.3rem;
-}
-
-.skillsIcons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.icons {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 2rem 3rem 3rem 3rem;
 }
 
 .contact {
     border: 1px solid #032B43;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 2rem 2rem 2rem 2rem;
     border-radius: 12px;
     margin-bottom: 6rem;
     max-width: 70rem;
@@ -286,7 +273,7 @@
     .githubLink {
         font-size: 1.1rem;
     }
-    .skills {
+    .skillsSection {
         margin-bottom: 5rem;
     }
     .contact {
@@ -332,12 +319,12 @@
     .projects {
         margin-bottom: 4rem;
     }
-    .skills {
+    .skillsSection {
         margin-bottom: 4rem;
     }
     .contact {
         margin-bottom: 4rem;
-        padding: 2rem 3rem 2rem 3rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
 }
 
@@ -373,7 +360,7 @@
     .githubLink {
         font-size: 0.9rem;
     }
-    .skills {
+    .skillsSection {
         margin-bottom: 3rem;
     }
     .contact {

@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from '../styles/Main.module.css';
 import aboutPhoto from '../Headshot.jpg';
-import { FaHtml5, FaCss3Alt, FaReact, FaGit, FaGithub } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiChakraui } from 'react-icons/si';
-import { RiNextjsFill } from 'react-icons/ri';
 import ContactIcons from './ContactIcons.jsx';
 import ContactForm from './ContactForm.jsx';
+import SkillsCategories from './SkillsCategories.jsx';
 
 export default function Main() {
     return (
@@ -170,18 +168,10 @@ export default function Main() {
                         </article>
                     </div>
                 </section>
-                <section className={styles.skills}>
+                <section className={styles.skillsSection}>
                     <h2 className={styles.sectionHeading} id='skills'>Skills</h2>
-                    <div className={styles.skillsIcons}>
-                        <FaHtml5 className={styles.icons} />
-                        <FaCss3Alt className={styles.icons} />
-                        <SiJavascript className={styles.icons} />
-                        <SiTypescript className={styles.icons} />
-                        <FaReact className={styles.icons} />
-                        <RiNextjsFill className={styles.icons} />
-                        <SiChakraui className={styles.icons} />
-                        <FaGit className={styles.icons} />
-                        <FaGithub className={styles.icons} />
+                    <div>
+                        <SkillsCategories />
                     </div>
                 </section>
                 <section className={styles.contact}>
