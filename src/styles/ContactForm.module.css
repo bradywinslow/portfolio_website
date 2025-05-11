@@ -37,13 +37,7 @@
     line-height: 3rem;
     width: stretch;
     margin-top: 10px;
-}
-
-.contactFormMessage {
-    background-color: #DCEFFF;
-    border-radius: 12px;
-    margin-top: 10px;
-    line-height: 3rem;
+    padding: 0 7px 0 7px;
 }
 
 .contactFormMessageContainer {
@@ -59,6 +53,7 @@ textarea {
 
 .formLabels {
     margin-bottom: 5px;
+    padding-left: 5px;
 }
 
 .sendButton {

@@ -37,7 +37,7 @@ export default function ContactForm() {
                     <div className={styles.contactFormMessageContainer}>
                         <label className={styles.formLabels} for='message'>Message</label>
                         <textarea
-                            className={styles.contactFormMessage}
+                            className={styles.contactFormInputFields}
                             name='message'
                             required
                             id='message'
