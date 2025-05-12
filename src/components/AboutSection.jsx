@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/AboutSection.module.css';
-import aboutPhoto from '../Headshot.jpg';
 
 export default function AboutSection() {
     return (
