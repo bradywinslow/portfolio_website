@@ -1,0 +1,70 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9eadbd;
+    border-radius: 12px;
+    background-color: #dcefff;
+    padding: 20px;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.resumeButton {
+    width: 100%;
+}
+
+.resumeLink {
+    text-decoration: none;
+}
+
+.buttons {
+    background-color: #032B43;
+    color: #FF9C1A;
+    width: 100%;
+    height: 3rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    margin-top: 25px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background: #003C60;
+	color: #dcefff;
+    box-shadow: none;
+}
+
+.buttons:focus {
+    background: #003C60;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.buttons:active {
+    background: #011c2c;
+    color: #dcefff;
+	box-shadow: none;
+    outline: none;
+}
+
+.buttons:disabled {
+    background: #21638b;
+    color: #dcefff;
+    box-shadow: none;
+}
