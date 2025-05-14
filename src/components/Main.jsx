@@ -3,17 +3,14 @@ import styles from '../styles/Main.module.css';
 import AboutSection from '../components/AboutSection.jsx';
 import ContactIcons from './ContactIcons.jsx';
 import ContactForm from './ContactForm.jsx';
-import SkillsCategories from './SkillsCategories.jsx';
+import SkillsSection from './SkillsSection.jsx';
 
 export default function Main() {
     return (
         <>
             <div className={styles.mainContent}>
                 <section id='about' className={styles.aboutContainer}>
-                    <h2 className={styles.sectionHeading}>About</h2>
-                    <div className={styles.about}>
-                        <AboutSection />
-                    </div>
+                    <AboutSection />
                 </section>
                 <section id='projects' className={styles.projects}>
                     <h2 className={styles.sectionHeading}>Projects</h2>
@@ -149,14 +146,11 @@ export default function Main() {
                         </article>
                     </div>
                 </section>
-                <section className={styles.skillsSection}>
-                    <h2 className={styles.sectionHeading} id='skills'>Skills</h2>
-                    <div>
-                        <SkillsCategories />
-                    </div>
+                <section id='skills' className={styles.skillsContainer}>
+                    <SkillsSection />
                 </section>
-                <section className={styles.contact}>
-                    <h2 className={styles.sectionHeading} id='contact'>Contact</h2>
+                <section id='contact' className={styles.contact}>
+                    <h2 className={styles.sectionHeading}>Contact</h2>
                     <div className={styles.contactForm}>
                         <ContactForm />
                     </div>

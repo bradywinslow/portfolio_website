@@ -19,10 +19,6 @@
     background-color: #dcefff;
 }
 
-.aboutContainer h2 {
-    text-align: center;
-}
-
 .projectDetails {
     border: 1px solid #9eadbd;
     border-radius: 12px;
@@ -30,7 +26,7 @@
     padding: 20px;
     text-align: center;
     max-width: 24rem;
-    margin: 0 1rem 0 1rem;
+    margin: 20px;
 }
 
 .projects {
@@ -43,10 +39,6 @@
     background-color: #dcefff;
 }
 
-.sectionHeading {
-    margin-bottom: 35px;
-}
-
 .projects h2 {
     text-align: center;
     line-height: 1rem;
@@ -57,7 +49,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 35px;
+    gap: 20px;
 }
 
 .projectCardText {
@@ -142,19 +134,14 @@
     text-decoration: none;
 }
 
-.skillsSection {
-    max-width: 70rem;
-    margin-bottom: 6rem;
+.skillsContainer {
     border: 1px solid #032B43;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 12px;
+    margin-bottom: 6rem;
+    max-width: 70rem;
     background-color: #dcefff;
-}
-
-.skillsSection h2 {
-    text-align: center;
-    line-height: 1.3rem;
 }
 
 .contact {
@@ -201,7 +188,7 @@
     .projectDetails {
         margin: 0 auto 0 auto;
     }
-    .skillsSection {
+    .skillsContainer {
         margin-bottom: 5rem;
     }
     .contact {
@@ -229,7 +216,7 @@
     .projects {
         margin-bottom: 4rem;
     }
-    .skillsSection {
+    .skillsContainer {
         margin-bottom: 4rem;
     }
     .contact {
@@ -255,7 +242,7 @@
     .projects {
         margin-bottom: 3rem;
     }
-    .skillsSection {
+    .skillsContainer {
         margin-bottom: 3rem;
     }
     .contact {
