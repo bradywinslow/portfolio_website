@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from '../styles/Main.module.css';
 import AboutSection from '../components/AboutSection.jsx';
-import ContactIcons from './ContactIcons.jsx';
-import ContactForm from './ContactForm.jsx';
 import SkillsSection from './SkillsSection.jsx';
+import ContactSection from './ContactSection.jsx';
 
 export default function Main() {
     return (
@@ -149,14 +148,8 @@ export default function Main() {
                 <section id='skills' className={styles.skillsContainer}>
                     <SkillsSection />
                 </section>
-                <section id='contact' className={styles.contact}>
-                    <h2 className={styles.sectionHeading}>Contact</h2>
-                    <div className={styles.contactForm}>
-                        <ContactForm />
-                    </div>
-                    <div className={styles.contactIcons}>
-                        <ContactIcons />
-                    </div>
+                <section id='contact' className={styles.contactContainer}>
+                    <ContactSection />
                 </section>
             </div>
         </>

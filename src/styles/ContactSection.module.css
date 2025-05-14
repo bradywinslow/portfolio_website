@@ -1,0 +1,16 @@
+.contactSectionHeading {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.contactForm {
+    margin-bottom: 20px;
+}
+
+.contactIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

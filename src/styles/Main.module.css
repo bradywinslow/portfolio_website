@@ -144,7 +144,7 @@
     background-color: #dcefff;
 }
 
-.contact {
+.contactContainer {
     border: 1px solid #032B43;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem 2rem 2rem 2rem;
@@ -152,22 +152,6 @@
     margin-bottom: 6rem;
     max-width: 70rem;
     background-color: #dcefff;
-}
-
-.contact h2 {
-    text-align: center;
-    line-height: 1.3rem;
-}
-
-.contactIcons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.contactForm {
-    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 90rem) {
@@ -191,7 +175,7 @@
     .skillsContainer {
         margin-bottom: 5rem;
     }
-    .contact {
+    .contactContainer {
         margin-bottom: 5rem;
     }
 }
@@ -219,7 +203,7 @@
     .skillsContainer {
         margin-bottom: 4rem;
     }
-    .contact {
+    .contactContainer {
         margin-bottom: 4rem;
         padding: 2rem 2rem 2rem 2rem;
     }
@@ -245,7 +229,7 @@
     .skillsContainer {
         margin-bottom: 3rem;
     }
-    .contact {
+    .contactContainer {
         margin-bottom: 3rem;
     }
 }
