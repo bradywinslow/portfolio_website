@@ -1,0 +1,59 @@
+import React from 'react';
+import styles from '../styles/ProjectsSection.module.css';
+import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
+
+export default function ProjectsSection() {
+    return (
+        <div className={styles.projectsSection}>
+            <h2 className={styles.projectsSectionHeading}>Projects</h2>
+            <div className={styles.projectsCardContainer}>
+                {projectsCardsInfo.map((cardItem, index) => (
+                    <article key={index} className={styles.projectsCard}>
+                    <div className={styles.videoContainer}>
+                        <iframe
+                            className={styles.video}
+                            width='560'
+                            height='315'
+                            src={cardItem.videoSrc}
+                            title={cardItem.videoTitle}
+                            controls
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            webkitallowfullscreen='true'
+                            mozallowfullscreen='true'
+                        ></iframe>
+                    </div>
+                    <div className={styles.projectsCardText}>
+                        <h3 className={styles.projectsCardLink}>
+                            <a
+                                href={cardItem.projectHref}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                {cardItem.projectTitle}
+                            </a>
+                        </h3>
+                        {cardItem.projectText.map((cardText, id) => (
+                            <p key={id}>{cardText.text}</p>
+                        ))}
+                    </div>
+                    <a
+                        className={styles.githubRepoLink}
+                        href={cardItem.githubRepoHref}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        <button
+                            className={styles.githubRepoButton}
+                            type='button'
+                        >
+                            GitHub Repo    
+                        </button>
+                    </a>
+                    </article>
+                ))}
+            </div>
+        </div>
+    )
+}

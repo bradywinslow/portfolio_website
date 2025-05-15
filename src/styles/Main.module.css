@@ -19,17 +19,7 @@
     background-color: #dcefff;
 }
 
-.projectDetails {
-    border: 1px solid #9eadbd;
-    border-radius: 10px;
-    background-color: #dcefff;
-    padding: 20px;
-    text-align: center;
-    max-width: 24rem;
-    margin: 20px;
-}
-
-.projects {
+.projectsContainer {
     max-width: 70rem;
     margin-bottom: 6rem;
     border: 1px solid #032B43;
@@ -37,101 +27,6 @@
     padding: 2rem;
     border-radius: 16px;
     background-color: #dcefff;
-}
-
-.projects h2 {
-    text-align: center;
-    line-height: 1rem;
-}
-
-.details {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.projectCardText {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
-
-.projectCardText p {
-    font-size: 16px;
-    margin-bottom: 0;
-}
-
-.projectLink {
-    font-size: 24px;
-    margin-bottom: 0;
-}
-
-.projectLink a {
-    text-decoration: none;
-    color: #032B43;
-}
-
-.videoDemo {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
-
-.buttons {
-    background-color: #032B43;
-    color: #FF9C1A;
-    width: 100%;
-    height: 3rem;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0;
-    font-size: 16px;
-    margin-top: 25px;
-    box-shadow: none;
-    cursor: pointer;
-}
-
-.buttons:hover {
-    background: #003C60;
-	color: #dcefff;
-    box-shadow: none;
-}
-
-.buttons:focus {
-    background: #003C60;
-    color: #dcefff;
-	box-shadow: none;
-    outline: none;
-}
-
-.buttons:active {
-    background: #011c2c;
-    color: #dcefff;
-	box-shadow: none;
-    outline: none;
-}
-
-.buttons:disabled {
-    background: #21638b;
-    color: #dcefff;
-    box-shadow: none;
-}
-
-.githubLink {
-    text-decoration: none;
 }
 
 .skillsContainer {
@@ -166,7 +61,7 @@
         margin-top: 3rem;
         margin-bottom: 5rem;
     }
-    .projects {
+    .projectsContainer {
         margin-bottom: 5rem;
     }
     .projectDetails {
@@ -197,7 +92,7 @@
         margin-top: 3rem;
         margin-bottom: 4rem;
     }
-    .projects {
+    .projectsContainer {
         margin-bottom: 4rem;
     }
     .skillsContainer {
@@ -223,7 +118,7 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
     }
-    .projects {
+    .projectsContainer {
         margin-bottom: 3rem;
     }
     .skillsContainer {
