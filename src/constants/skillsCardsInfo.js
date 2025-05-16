@@ -13,7 +13,7 @@ const skillsCardsInfo = [
         ]
     },
     {
-        title: 'FrameWorks & Libraries',
+        title: 'Frameworks & Libraries',
         technologies: [
             { name: 'React', icon: FaReact },
             { name: 'Next.js', icon: RiNextjsFill },

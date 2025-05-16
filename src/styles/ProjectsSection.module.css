@@ -59,6 +59,10 @@
     color: #032B43;
 }
 
+.projectsCardLink:hover {
+    color: #9eadbd;
+}
+
 .githubRepoLink {
     text-decoration: none;
 }
