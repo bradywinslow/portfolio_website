@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from '../styles/SkillsSection.module.css';
+import SectionHeading from '../components/SectionHeading.jsx';
 import { skillsCardsInfo } from '../constants/skillsCardsInfo.js';
 
 export default function SkillsSection() {
     return (
         <div className={styles.skillsSection}>
-            <h2 className={styles.skillsSectionHeading}>Skills</h2>
+            <SectionHeading>Skills</SectionHeading>
             <div className={styles.skillsCategoriesContainer}>
                 {skillsCardsInfo.map((section, index) => (
                     <div className={styles.skillsCard} key={index}>

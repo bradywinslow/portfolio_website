@@ -9,11 +9,6 @@
     padding: 0 20px;
 }
 
-.skillsSectionHeading {
-    margin-top: 0;
-    margin-bottom: 2rem;
-}
-
 .skillsCategoriesContainer {
     display: flex;
     flex-direction: column;

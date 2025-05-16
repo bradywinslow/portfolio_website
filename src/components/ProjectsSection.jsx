@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from '../styles/ProjectsSection.module.css';
 import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
+import SectionHeading from '../components/SectionHeading.jsx';
 import Button from '../components/Button.jsx';
 
 export default function ProjectsSection() {
     return (
         <div className={styles.projectsSection}>
-            <h2 className={styles.projectsSectionHeading}>Projects</h2>
+            <SectionHeading>Projects</SectionHeading>
             <div className={styles.projectsCardContainer}>
                 {projectsCardsInfo.map((cardItem, index) => (
                     <article key={index} className={styles.projectsCard}>

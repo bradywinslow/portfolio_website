@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from '../styles/AboutSection.module.css';
+import SectionHeading from '../components/SectionHeading.jsx';
 import Button from '../components/Button.jsx';
 
 export default function AboutSection() {
     return (
         <div className={styles.aboutSection}>
-            <h2 className={styles.aboutSectionHeading}>About</h2>
+            <SectionHeading>About</SectionHeading>
             <div className={styles.aboutCard}>
                 <div className={styles.aboutText}>
                     <p>👋 Hi! I'm a front-end web developer with a unique background: I have a Ph.D. in history, have taught middle and high school history, and worked as a customer success manager.</p>
