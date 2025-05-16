@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/ContactForm.module.css';
+import Button from '../components/Button.jsx';
 
 export default function ContactForm() {
     return (
@@ -47,12 +48,11 @@ export default function ContactForm() {
                         ></textarea>
                     </div>
                     <div>
-                        <button
+                        <Button
                             type='submit'
-                            className={styles.sendButton}
                         >
                             Send
-                        </button>
+                        </Button>
                     </div>
                 </form>
             </article>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/ProjectsSection.module.css';
 import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
+import Button from '../components/Button.jsx';
 
 export default function ProjectsSection() {
     return (
@@ -44,12 +45,11 @@ export default function ProjectsSection() {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        <button
-                            className={styles.githubRepoButton}
+                        <Button
                             type='button'
                         >
                             GitHub Repo    
-                        </button>
+                        </Button>
                     </a>
                     </article>
                 ))}

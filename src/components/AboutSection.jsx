@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/AboutSection.module.css';
+import Button from '../components/Button.jsx';
 
 export default function AboutSection() {
     return (
@@ -14,12 +15,11 @@ export default function AboutSection() {
                 </div>
                 <div className={styles.resumeButton}>
                     <a href='/Brady_Winslow_Resume.pdf' download target='_blank' className={styles.resumeLink}>
-                        <button
-                            className={styles.buttons}
+                        <Button
                             type='button'
                         >
                             Download Resume
-                        </button>
+                        </Button>
                     </a>
                 </div>
             </div>
