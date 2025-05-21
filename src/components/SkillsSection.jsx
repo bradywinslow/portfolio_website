@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/SkillsSection.module.css';
 import SectionHeading from '../components/SectionHeading.jsx';
 import { skillsCardsInfo } from '../constants/skillsCardsInfo.js';

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/Main.module.css';
 import AboutSection from '../components/AboutSection.jsx';
 import ProjectsSection from '../components/ProjectsSection.jsx';

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/ProjectsSection.module.css';
 import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
 import SectionHeading from '../components/SectionHeading.jsx';

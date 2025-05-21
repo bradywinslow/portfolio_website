@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/SectionHeading.module.css';
 
 export default function SectionHeading({ children}) {

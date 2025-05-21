@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/ContactForm.module.css';
 import Button from '../components/Button.jsx';
 

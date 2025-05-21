@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/ContactIcons.module.css';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 

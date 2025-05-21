@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/AboutSection.module.css';
 import SectionHeading from '../components/SectionHeading.jsx';
 import Button from '../components/Button.jsx';
