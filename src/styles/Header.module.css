@@ -58,6 +58,7 @@
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
+    list-style: none;
 }
 
 .ul a {
@@ -112,7 +113,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .dropdownOpen a {
+    .dropdownOpen li {
         width: 70%;
         border-top: solid thin #DCEFFF;
         padding-top: 1rem;

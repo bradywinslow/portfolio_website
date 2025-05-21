@@ -39,9 +39,11 @@ export default function Header() {
                 <div className={styles.navMenuItemsContainer} ref={menuRef}>
                     <ul className={`${styles.ul} ${isOpen ? styles.dropdownOpen : ''}`}>
                         {navMenu.map((item) => (
-                            <a key={item.id} href={item.href} onClick={toggle}>
-                                {item.name}
-                            </a>
+                            <li key={item.id} onClick={toggle}>
+                                <a href={item.href}>
+                                    {item.name}
+                                </a>
+                            </li>
                         ))}
                     </ul>
                 </div>
