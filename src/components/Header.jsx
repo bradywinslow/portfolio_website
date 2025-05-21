@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import styles from '../styles/Header.module.css';
 import { navMenu } from '../constants/navMenu.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +46,7 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className={`${styles.faBtnIcons} ${isOpen ? styles.closeIcon : styles.openIcon}`} onClick={toggle}>
-                    <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
+                    {isOpen ? <FaTimes /> : <FaBars />}
                 </div>
             </div>
         </nav>
