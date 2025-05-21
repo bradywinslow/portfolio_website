@@ -1,28 +1,27 @@
 import React from 'react';
 import styles from '../styles/ContactIcons.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 export default function Contact() {
     return (
         <div className={styles.contact}>
             <a
-                className={styles.FontAwesomeIcon}
+                className={styles.icons}
                 href='https://www.linkedin.com/in/brady-winslow/'
                 target='_blank'
                 rel='noreferrer'
                 aria-label='LinkedIn'
             >
-                <FontAwesomeIcon icon={faLinkedinIn} />
+                <FaLinkedinIn />
             </a>
             <a
-                className={styles.FontAwesomeIcon}
+                className={styles.icons}
                 href='https://github.com/bradywinslow'
                 target='_blank'
                 rel='noreferrer'
                 aria-label='GitHub'
             >
-                <FontAwesomeIcon icon={faGithub} />
+                <FaGithub />
             </a>
         </div>
     )
