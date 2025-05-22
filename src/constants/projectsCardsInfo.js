@@ -1,6 +1,7 @@
 const projectsCardsInfo = [
     {
         videoSrc: 'https://www.youtube.com/embed/Ixs2bfRP0Sg?si=7YlVVqlX9ZjWJQMx',
+        videoId: 'Ixs2bfRP0Sg',
         videoTitle: 'Reddit Client Gaming Feed application video demo',
         projectHref: 'https://reddit-client-gaming-feed.vercel.app/',
         projectTitle: 'Reddit Client Gaming Feed',
@@ -12,6 +13,7 @@ const projectsCardsInfo = [
     },
     {
         videoSrc: 'https://www.youtube.com/embed/YCnOO_iZ2fw?si=c1ySWXxX3lchUJIk',
+        videoId: 'YCnOO_iZ2fw',
         videoTitle: 'Find Your Hat application video demo',
         projectHref: 'https://findyourhat.netlify.app/',
         projectTitle: 'Find Your Hat',
@@ -23,6 +25,7 @@ const projectsCardsInfo = [
     },
     {
         videoSrc: 'https://www.youtube.com/embed/WSdDwcX9JZQ?si=86-eQ7siCpWD-vt6',
+        videoId: 'WSdDwcX9JZQ',
         videoTitle: 'Jammming application video demo',
         projectHref: 'https://jammming-playlist-builder.netlify.app/',
         projectTitle: 'Jammming',

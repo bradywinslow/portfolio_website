@@ -2,6 +2,8 @@ import styles from '../styles/ProjectsSection.module.css';
 import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
 import SectionHeading from '../components/SectionHeading.jsx';
 import Button from '../components/Button.jsx';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 export default function ProjectsSection() {
     return (
@@ -11,19 +13,14 @@ export default function ProjectsSection() {
                 {projectsCardsInfo.map((cardItem, index) => (
                     <article key={index} className={styles.projectsCard}>
                     <div className={styles.videoContainer}>
-                        <iframe
-                            className={styles.video}
-                            width='560'
-                            height='315'
-                            src={cardItem.videoSrc}
+                        <LiteYouTubeEmbed
+                            id={cardItem.videoId}
+                            adNetwork={false}
+                            playlist={false}
+                            poster='hqdefault'
                             title={cardItem.videoTitle}
-                            controls
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            webkitallowfullscreen='true'
-                            mozallowfullscreen='true'
-                        ></iframe>
+                            cookie={false}
+                        />
                     </div>
                     <div className={styles.projectsCardText}>
                         <h3 className={styles.projectsCardLink}>
