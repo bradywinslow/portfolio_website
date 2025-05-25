@@ -20,6 +20,7 @@ export default function ProjectsSection() {
                             poster='hqdefault'
                             title={cardItem.videoTitle}
                             cookie={false}
+                            playerClass={styles.youtubePlayButton}
                         />
                     </div>
                     <div className={styles.projectsCardText}>
