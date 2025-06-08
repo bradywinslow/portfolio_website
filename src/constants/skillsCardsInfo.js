@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiChakraui, SiJest, SiTestinglibrary } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiTailwindcss, SiChakraui, SiJest, SiTestinglibrary } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
 
 const skillsCardsInfo = [
@@ -17,6 +17,7 @@ const skillsCardsInfo = [
         technologies: [
             { name: 'React', icon: FaReact },
             { name: 'Next.js', icon: RiNextjsFill },
+            { name: 'Tailwind CSS', icon: SiTailwindcss },
             { name: 'Chakra UI', icon: SiChakraui }
         ]
     },
