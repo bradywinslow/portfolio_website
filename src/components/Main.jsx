@@ -10,11 +10,11 @@ export default function Main() {
             <section id='about' className={styles.sectionContainers}>
                 <AboutSection />
             </section>
-            <section id='projects' className={styles.sectionContainers}>
-                <ProjectsSection />
-            </section>
             <section id='skills' className={styles.sectionContainers}>
                 <SkillsSection />
+            </section>
+            <section id='projects' className={styles.sectionContainers}>
+                <ProjectsSection />
             </section>
             <section id='contact' className={styles.sectionContainers}>
                 <ContactSection />
