@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 import { SiJavascript, SiTypescript, SiTailwindcss, SiChakraui, SiJest, SiTestinglibrary } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
 
@@ -6,10 +6,8 @@ const skillsCardsInfo = [
     {
         title: 'Core Web Technologies',
         technologies: [
-            { name: 'HTML', icon: FaHtml5 },
-            { name: 'CSS', icon: FaCss3Alt },
-            { name: 'JavaScript', icon: SiJavascript },
-            { name: 'TypeScript', icon: SiTypescript }
+            { name: 'TypeScript', icon: SiTypescript },
+            { name: 'JavaScript', icon: SiJavascript }
         ]
     },
     {
