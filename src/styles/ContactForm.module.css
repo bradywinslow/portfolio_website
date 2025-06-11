@@ -11,6 +11,10 @@
     background-color: #dcefff;
 }
 
+.contactForm p {
+    margin-top: 0;
+}
+
 .formFields {
     display: flex;
     flex-direction: column;
