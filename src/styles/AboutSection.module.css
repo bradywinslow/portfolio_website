@@ -17,6 +17,12 @@
     flex-direction: column;
     justify-content: center;
     text-align: start;
+    gap: 20px;
+}
+
+.aboutText p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .resumeButton {
