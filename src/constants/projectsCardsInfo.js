@@ -7,7 +7,7 @@ const projectsCardsInfo = [
         projectTitle: 'Reddit Client Gaming Feed',
         projectText: [
             { text: 'Reddit Client Gaming Feed is a web application that displays gaming-related posts from Reddit, providing users with a feed of content focused on gaming discussions, media, and news.' },
-            { text: 'Technologies: HTML5, CSS3, TypeScript, Next.js, Chakra UI, Vercel' }
+            { text: 'TypeScript, Next.js, Chakra UI, Vercel' }
         ],
         githubRepoHref: 'https://github.com/bradywinslow/reddit-client',
     },
@@ -19,7 +19,7 @@ const projectsCardsInfo = [
         projectTitle: 'Find Your Hat',
         projectText: [
             { text: 'Find Your Hat is a game. After setting a width and height, and a percentage for holes to appear on the field, a user navigates through the field, trying to avoid the holes to find the hat.' },
-            { text: 'Technologies: HTML5, CSS3, JavaScript, React, React Router, Netlify' }
+            { text: 'JavaScript, React, React Router, Netlify' }
         ],
         githubRepoHref: 'https://github.com/bradywinslow/findYourHat',
     },
@@ -31,7 +31,7 @@ const projectsCardsInfo = [
         projectTitle: 'Jammming',
         projectText: [
             { text: 'Jammming is a web application that allows a user to sign in to their Spotify account, search for songs, albums, or artists, create a personalized playlist, and save the playlist to Spotify.' },
-            { text: 'Technologies: HTML5, CSS3, JavaScript, React, React Router, Chakra UI, Netlify' }
+            { text: 'JavaScript, React, React Router, Chakra UI, Netlify' }
         ],
         githubRepoHref: 'https://github.com/bradywinslow/jammming',
     }
