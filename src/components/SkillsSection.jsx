@@ -13,8 +13,8 @@ export default function SkillsSection() {
                             <ul>
                                 {section.technologies.map((item, id) => (
                                     <li key={id}>
-                                        {item.name}
                                         <item.icon className={styles.icons} />
+                                        {item.name}
                                     </li>
                                 ))}
                             </ul>
