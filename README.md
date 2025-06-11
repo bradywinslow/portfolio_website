@@ -14,17 +14,15 @@
 - [Contact](#contact)
 
 ## Introduction
-Welcome to my portfolio! This website serves as a central hub for potential employers and collaborators to explore my coding journey. I've included information about me, my projects, and the skills I've developed to showcase what I bring to the table as a junior software engineer.
+Welcome to my portfolio! This website serves as a central hub for my coding journey. I've included information about me, my skills, the projects I've built, and how to contact me.
 
 ## Features
 - **About Me:** Learn a bit about me through a brief bio.
-- **Projects:** Explore my featured projects.
 - **Skills:** See a list of programming languages, tools, and technologies I'm proficient in.
+- **Projects:** Explore my featured projects.
 - **Contact:** Reach out to me through several contact options.
 
 ## Technologies Used
-- HTML5
-- CSS3
 - JavaScript
 - React
 - Netlify
