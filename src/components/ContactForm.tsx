@@ -1,5 +1,5 @@
 import styles from '../styles/ContactForm.module.css';
-import Button from '../components/Button.jsx';
+import Button from './Button';
 
 export default function ContactForm() {
     return (
@@ -14,7 +14,7 @@ export default function ContactForm() {
                     <div className={styles.nameEmailFields}>
                         <div className={styles.nameField}>
                         <input type='hidden' name='form-name' value='contact' />
-                            <label className={styles.formLabels} for='name'>Name</label>
+                            <label className={styles.formLabels} htmlFor='name'>Name</label>
                             <input
                                 className={styles.contactFormInputFields}
                                 type='text'
@@ -24,7 +24,7 @@ export default function ContactForm() {
                             />
                         </div>
                         <div className={styles.emailField}>
-                            <label className={styles.formLabels} for='email'>Email</label>
+                            <label className={styles.formLabels} htmlFor='email'>Email</label>
                             <input
                                 className={styles.contactFormInputFields}
                                 type='email'
@@ -35,14 +35,14 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className={styles.contactFormMessageContainer}>
-                        <label className={styles.formLabels} for='message'>Message</label>
+                        <label className={styles.formLabels} htmlFor='message'>Message</label>
                         <textarea
                             className={styles.contactFormInputFields}
                             name='message'
                             required
                             id='message'
-                            rows='5'
-                            spellcheck
+                            rows={5}
+                            spellCheck
                             wrap='hard'
                         ></textarea>
                     </div>

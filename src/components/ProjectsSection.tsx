@@ -1,7 +1,7 @@
 import styles from '../styles/ProjectsSection.module.css';
-import { projectsCardsInfo } from '../constants/projectsCardsInfo.js';
-import SectionHeading from '../components/SectionHeading.jsx';
-import Button from '../components/Button.jsx';
+import { projectsCardsInfo } from '../constants/projectsCardsInfo';
+import SectionHeading from '../components/SectionHeading';
+import Button from '../components/Button';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 

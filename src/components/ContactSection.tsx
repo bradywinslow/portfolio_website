@@ -1,7 +1,7 @@
 import styles from '../styles/ContactSection.module.css';
-import SectionHeading from '../components/SectionHeading.jsx';
-import ContactForm from '../components/ContactForm.jsx';
-import ContactIcons from '../components/ContactIcons.jsx';
+import SectionHeading from './SectionHeading';
+import ContactForm from './ContactForm';
+import ContactIcons from './ContactIcons';
 
 export default function ContactSection() {
     return (
