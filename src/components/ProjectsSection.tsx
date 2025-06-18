@@ -33,8 +33,11 @@ export default function ProjectsSection() {
                                 {cardItem.projectTitle}
                             </a>
                         </h3>
-                        {cardItem.projectText.map((cardText, id) => (
-                            <p key={id}>{cardText.text}</p>
+                            <p>{cardItem.projectText}</p>
+                    </div>
+                    <div className={styles.projectSkills}>
+                        {cardItem.projectSkills.map((item, index) => (
+                            <p className={styles.skill} key={index}>{item.skill}</p>
                         ))}
                     </div>
                     <a

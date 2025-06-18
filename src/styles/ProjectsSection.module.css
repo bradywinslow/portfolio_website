@@ -89,6 +89,22 @@
     color: #9eadbd;
 }
 
+.projectSkills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    border: solid thin #032B43;
+    border-radius: 13px;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+}
+
 .githubRepoLink {
     text-decoration: none;
 }
