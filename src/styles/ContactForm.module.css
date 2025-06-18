@@ -22,16 +22,20 @@
 
 .nameEmailFields {
     display: flex;
-    flex-direction: row;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1.25rem;
 }
 
 .nameField {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .emailField {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .contactFormInputFields {
@@ -57,15 +61,5 @@ textarea {
 
 .formLabels {
     margin-bottom: 5px;
-    padding-left: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-    .nameEmailFields {
-        flex-direction: column;
-        gap: 25px;
-    }
-    .emailField {
-        justify-content: left;
-    }
+    
 }
