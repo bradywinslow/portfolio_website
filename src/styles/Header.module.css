@@ -1,6 +1,6 @@
 .nav {
     background-color: #032B43;
-    height: 8rem;
+    height: 7rem;
     font-weight: 400;
     display: flex;
     width: 100%;
@@ -89,7 +89,7 @@
 
 @media only screen and (max-width: 768px) {
     .nav {
-        height: 6rem;
+        height: 5rem;
     }
     .navContainer {
         margin-left: 12%;

@@ -1,6 +1,6 @@
 .buttons {
-    background-color: #032B43;
-    color: #FF9C1A;
+    background-color: #dcefff;
+    color: #032B43;
     width: 100%;
     height: 3rem;
     border-radius: 8px;
@@ -15,27 +15,24 @@
 }
 
 .buttons:hover {
-    background: #003C60;
-	color: #dcefff;
+	background-color: #ffa734;
+    color: #032B43;
     box-shadow: none;
 }
 
 .buttons:focus {
-    background: #003C60;
-    color: #dcefff;
+    background-color: #FFB24D;
 	box-shadow: none;
     outline: none;
 }
 
 .buttons:active {
-    background: #011c2c;
-    color: #dcefff;
+    background-color: #FF9100;
 	box-shadow: none;
     outline: none;
 }
 
 .buttons:disabled {
-    background: #21638b;
-    color: #dcefff;
+    background-color: #ECC693;
     box-shadow: none;
 }

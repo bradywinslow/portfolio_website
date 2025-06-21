@@ -1,6 +1,5 @@
 import styles from '../styles/ProjectsSection.module.css';
 import { projectsCardsInfo } from '../constants/projectsCardsInfo';
-import SectionHeading from '../components/SectionHeading';
 import Button from '../components/Button';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
@@ -8,7 +7,6 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 export default function ProjectsSection() {
     return (
         <div className={styles.projectsSection}>
-            <SectionHeading>Projects</SectionHeading>
             <div className={styles.projectsCardContainer}>
                 {projectsCardsInfo.map((cardItem, index) => (
                     <article key={index} className={styles.projectsCard}>
@@ -23,7 +21,7 @@ export default function ProjectsSection() {
                             playerClass={styles.youtubePlayButton}
                         />
                     </div>
-                    <div className={styles.projectsCardText}>
+                    <div className={styles.projectsCardTitle}>
                         <h3 className={styles.projectsCardLink}>
                             <a
                                 href={cardItem.projectHref}
@@ -33,12 +31,19 @@ export default function ProjectsSection() {
                                 {cardItem.projectTitle}
                             </a>
                         </h3>
-                            <p>{cardItem.projectText}</p>
                     </div>
-                    <div className={styles.projectSkills}>
-                        {cardItem.projectSkills.map((item, index) => (
-                            <p className={styles.skill} key={index}>{item.skill}</p>
-                        ))}
+                    <div className={styles.projectsSkills}>
+                        <ul>
+                            {cardItem.projectSkills.map((item, id) => (
+                                <li key={id}>
+                                    <item.icon className={styles.projectsSkillsIcons} />
+                                    {item.skill}
+                                </li>
+                            ))}
+                        </ul>                        
+                    </div>
+                    <div className={styles.projectsCardText}>
+                        <p>{cardItem.projectText}</p>
                     </div>
                     <a
                         className={styles.githubRepoLink}
@@ -49,7 +54,7 @@ export default function ProjectsSection() {
                         <Button
                             type='button'
                         >
-                            GitHub Repo    
+                            Code
                         </Button>
                     </a>
                     </article>
