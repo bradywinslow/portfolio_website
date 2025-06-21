@@ -8,7 +8,6 @@
     padding: 20px;
     border: 1px solid #9eadbd;
     border-radius: 10px;
-    background-color: #dcefff;
 }
 
 .contactForm p {
@@ -41,7 +40,8 @@
 .contactFormInputFields {
     border: 1px solid #9eadbd;
     border-radius: 8px;
-    background-color: #DCEFFF;
+    background-color: #032B43;
+    color: #dcefff;
     line-height: 3rem;
     width: stretch;
     margin-top: 10px;

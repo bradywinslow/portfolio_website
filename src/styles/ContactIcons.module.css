@@ -8,12 +8,12 @@
   }
 
 a:hover {
-    color: #21638b;
+    color: #FF9C1A;
 }
 
-  .icons {
+.icons {
     font-size: 1.23rem;
-    color: #032B43;
+    color: #dcefff;
 }
 
 @media only screen and (max-width: 900px) {
