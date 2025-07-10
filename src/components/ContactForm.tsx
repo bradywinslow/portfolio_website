@@ -11,7 +11,6 @@ export default function ContactForm() {
                     name='contact'
                     method='POST'
                     netlify-honeypot='bot-field'
-                    data-netlify-recaptcha='true'
                 >
                     <div className={styles.nameEmailFields}>
                         <div className={styles.nameField}>
@@ -51,7 +50,6 @@ export default function ContactForm() {
                     <div className={styles.honeypotField}>
                         <input type='text' name='bot-field' autoComplete='off'/>
                     </div>
-                    <div data-netlify-recaptcha='true'></div>
                     <div>
                         <Button
                             type='submit'
