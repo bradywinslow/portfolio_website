@@ -10,6 +10,7 @@ export default function ContactForm() {
                     className={styles.formFields}
                     name='contact'
                     method='POST'
+                    netlify-honeypot='bot-field'
                 >
                     <div className={styles.nameEmailFields}>
                         <div className={styles.nameField}>
@@ -45,6 +46,9 @@ export default function ContactForm() {
                             spellCheck
                             wrap='hard'
                         ></textarea>
+                    </div>
+                    <div className={styles.honeypotField}>
+                        <input type='text' name='bot-field' autoComplete='off'/>
                     </div>
                     <div>
                         <Button

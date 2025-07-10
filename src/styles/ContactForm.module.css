@@ -63,3 +63,7 @@ textarea {
     margin-bottom: 5px;
     
 }
+
+.honeypotField {
+    display: none;
+}
