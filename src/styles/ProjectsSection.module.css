@@ -1,3 +1,8 @@
+.projectsSection {
+    width: 100%;
+    max-width: 70rem;
+}
+
 .projectsCardContainer {
     display: flex;
     flex-direction: row;
